@@ -1,0 +1,35 @@
+@import "../variables";
+@mixin lg {
+  padding: 25px 50px;
+}
+@mixin md {
+  padding: 20px 40px;
+}
+@mixin sm {
+  padding: 15px 30px;
+}
+@mixin btn {
+  font-family: $btn-font-family;
+  font-weight: $btn-font-weight;
+  font-size: $btn-font-size;
+  color: $btn-primary-text-color;
+  border-radius: $btn-border-radius;
+}
+
+@mixin btn-primary {
+  @include btn;
+  background: $btn-primary-bg-color;
+  border: 0;
+  outline: none;
+}
+@mixin btn-hover {
+  background: $btn-secondary-bg-color;
+}
+.download-cv-btn {
+  @include btn-primary;
+  @include md;
+  transition: 0.3s;
+  &:hover {
+    @include btn-hover;
+  }
+}

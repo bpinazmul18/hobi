@@ -1,0 +1,136 @@
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.header-section {
+  background: #ffffff; }
+  .header-section .navbar-wrapper {
+    max-width: 1530px;
+    margin: 0 auto; }
+    .header-section .navbar-wrapper .navbar {
+      padding: 24px; }
+      .header-section .navbar-wrapper .navbar .navbar-nav .nav-link {
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: #000a2d;
+        padding: 20px 0;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-transform: capitalize;
+        position: relative;
+        display: inline-block;
+        line-height: 0; }
+        .header-section .navbar-wrapper .navbar .navbar-nav .nav-link.active {
+          color: #ff3d4f; }
+          .header-section .navbar-wrapper .navbar .navbar-nav .nav-link.active:after {
+            width: 100%; }
+        .header-section .navbar-wrapper .navbar .navbar-nav .nav-link:after {
+          content: "";
+          width: 0;
+          height: 2px;
+          background: #ff3d4f;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          transition: 0.3s; }
+        .header-section .navbar-wrapper .navbar .navbar-nav .nav-link:hover:after {
+          width: 100%; }
+      .header-section .navbar-wrapper .navbar .nav-btn {
+        display: flex;
+        flex-direction: row; }
+        .header-section .navbar-wrapper .navbar .nav-btn .download-cv-btn {
+          outline: none; }
+        .header-section .navbar-wrapper .navbar .nav-btn .toggler-btn-right {
+          margin-left: 15px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 0;
+          outline: none;
+          background: #fff7fa;
+          box-shadow: 0px 8px 16px 0px rgba(255, 194, 200, 0.3); }
+          .header-section .navbar-wrapper .navbar .nav-btn .toggler-btn-right img {
+            width: 14px;
+            height: 11px; }
+
+.download-cv-btn {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 32px;
+  background: #ff3d4f;
+  border: 0;
+  outline: none;
+  padding: 20px 40px;
+  transition: 0.3s; }
+  .download-cv-btn:hover {
+    background: #79819e; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.download-cv-btn {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 32px;
+  background: #ff3d4f;
+  border: 0;
+  outline: none;
+  padding: 20px 40px;
+  transition: 0.3s; }
+  .download-cv-btn:hover {
+    background: #79819e; }
+
+.banner-section {
+  background: #f6f5ff;
+  overflow: hidden;
+  position: relative; }
+  .banner-section .banner-right-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 20px;
+    width: 45%; }
+    .banner-section .banner-right-img img {
+      width: 100%;
+      height: auto; }
+  .banner-section .banner-text-box {
+    padding: 220px 0; }
+    .banner-section .banner-text-box h5 {
+      font-family: "Rubik", sans-serif;
+      font-weight: 400;
+      color: #ff3d4f;
+      font-size: 20px;
+      margin-bottom: 40px; }
+    .banner-section .banner-text-box h1 {
+      font-family: "Rufina", serif;
+      font-weight: 400;
+      color: #000a2d;
+      font-size: 90px;
+      line-height: 100px;
+      margin-bottom: 14px; }
+    .banner-section .banner-text-box p {
+      font-family: "Rubik", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: #6e7797;
+      margin-bottom: 34px; }
+    .banner-section .banner-text-box .banner-text-box .learn-more-btn {
+      font-family: "Rubik", sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      color: #fff;
+      border-radius: 32px;
+      color: red; }

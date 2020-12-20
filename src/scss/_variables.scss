@@ -1,0 +1,37 @@
+$primary-font: 'Rubik', sans-serif;
+$secondary-font: 'Rufina', serif;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 600;
+$primary-bg-color: #ffffff;
+$secondary-bg-color: #f6f5ff;
+//HEADER COLOR
+$primary-header-bg-color: $primary-bg-color;
+
+//NAVBAR COLOR, FONT..
+$navbar-primary-font: $primary-font;
+$navbar-primary-font-weight-medium: 500;
+$navbar-primary-font-size: 14px;
+$navbar-primary-text-color: #000a2d;
+$navbar-primary-text-active-color: #ff3d4f;
+$navbar-primary-text-transform: capitalize;
+$navbar-primary-border-color: $navbar-primary-text-active-color;
+
+//BTN COLOR, FONT...
+$btn-primary-text-color: #fff;
+$btn-secondary-text-color: #79819e;
+$btn-font-size: 14px;
+$btn-border-radius: 32px;
+$btn-primary-bg-color: $navbar-primary-text-active-color;
+$btn-secondary-bg-color: $btn-secondary-text-color;
+$btn-font-family: $navbar-primary-font;
+$btn-font-weight: $navbar-primary-font-weight-medium;
+$toggle-btn-bg-color: #fff7fa;
+
+//HEADING COLOR
+$heading-one-color: #000a2d;
+$heading-five-color: #ff3d4f;
+
+//PARAGRAPH
+$para-color: #6e7797;

@@ -1,0 +1,15 @@
+@import "../variables";
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+@mixin heading-primary-font {
+  font-family: $primary-font;
+  font-weight: $font-weight-regular;
+}
+
+@mixin heading-secondary-font {
+  font-family: $secondary-font;
+  font-weight: $font-weight-regular;
+}
