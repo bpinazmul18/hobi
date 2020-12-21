@@ -13,3 +13,18 @@
   font-family: $secondary-font;
   font-weight: $font-weight-regular;
 }
+
+@mixin heading-two {
+  @include heading-secondary-font;
+  font-size: 70px;
+  line-height: 90px;
+  color: $heading-two-color;
+  font-weight: $font-weight-bold;
+}
+
+@mixin paragraph-primary {
+  @include heading-primary-font;
+  font-size: 14px;
+  color: $para-color;
+  line-height: 26px;
+}

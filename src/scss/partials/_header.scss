@@ -1,4 +1,5 @@
 @import "../variables";
+@import "../mixins/mixins";
 .header-section {
   background: $primary-header-bg-color;
   .navbar {
@@ -45,7 +46,13 @@
       display: flex;
       flex-direction: row;
       .download-cv-btn {
+        @include btn-primary;
+        @include md;
+        transition: 0.3s;
         outline: none;
+        &:hover {
+          @include btn-hover;
+        }
       }
       .toggler-btn-right {
         margin-left: 15px;

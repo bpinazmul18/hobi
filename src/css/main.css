@@ -39,7 +39,21 @@
       display: flex;
       flex-direction: row; }
       .header-section .navbar .nav-btn .download-cv-btn {
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: #fff;
+        border-radius: 32px;
+        text-decoration: none;
+        display: inline-block;
+        background: #ff3d4f;
+        border: 0;
+        outline: none;
+        padding: 20px 40px;
+        transition: 0.3s;
         outline: none; }
+        .header-section .navbar .nav-btn .download-cv-btn:hover {
+          background: #79819e; }
       .header-section .navbar .nav-btn .toggler-btn-right {
         margin-left: 15px;
         display: flex;
@@ -56,45 +70,76 @@
           width: 14px;
           height: 11px; }
 
-.about-section {
-  padding: 120px 0;
-  background: #ffffff; }
-
-.download-cv-btn {
-  font-family: "Rubik", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  color: #fff;
-  border-radius: 32px;
-  text-decoration: none;
-  display: inline-block;
-  background: #ff3d4f;
-  border: 0;
-  outline: none;
-  padding: 20px 40px;
-  transition: 0.3s; }
-  .download-cv-btn:hover {
-    background: #79819e; }
-
 .container {
   max-width: 1170px;
   margin: 0 auto; }
 
-.download-cv-btn {
-  font-family: "Rubik", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  color: #fff;
-  border-radius: 32px;
-  text-decoration: none;
-  display: inline-block;
-  background: #ff3d4f;
-  border: 0;
-  outline: none;
-  padding: 20px 40px;
-  transition: 0.3s; }
-  .download-cv-btn:hover {
-    background: #79819e; }
+.about-section {
+  padding: 120px 0;
+  background: #ffffff;
+  border-bottom: 1px solid #f0ecff; }
+  .about-section .about-left-content-wrapper h6 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    color: #ff3d4f;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 20px; }
+  .about-section .about-left-content-wrapper h2 {
+    font-family: "Rufina", serif;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 90px;
+    color: #000a2d;
+    font-weight: 600; }
+  .about-section .about-right-content-wrapper p {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6e7797;
+    line-height: 26px;
+    margin-bottom: 16px; }
+  .about-section .about-right-content-wrapper .about-btn-wrapper {
+    margin-top: 24px; }
+    .about-section .about-right-content-wrapper .about-btn-wrapper .download-cv-btn {
+      font-family: "Rubik", sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      color: #fff;
+      border-radius: 32px;
+      text-decoration: none;
+      display: inline-block;
+      background: #ff3d4f;
+      border: 0;
+      outline: none;
+      padding: 20px 58px;
+      transition: 0.3s;
+      margin-right: 10px; }
+      .about-section .about-right-content-wrapper .about-btn-wrapper .download-cv-btn:hover {
+        background: #79819e; }
+    .about-section .about-right-content-wrapper .about-btn-wrapper .design-process-btn {
+      font-family: "Rubik", sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      color: #fff;
+      border-radius: 32px;
+      text-decoration: none;
+      display: inline-block;
+      background: transparent;
+      color: #79819e;
+      border: 2px solid #79819e;
+      padding: 20px 58px;
+      transition: 0.3s;
+      margin-left: 10px;
+      padding: 18px 46px; }
+      .about-section .about-right-content-wrapper .about-btn-wrapper .design-process-btn:hover {
+        background: #ff3d4f;
+        border-color: transparent;
+        color: #fff; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
 
 .banner-section {
   background: #f6f5ff;
