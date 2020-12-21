@@ -14,6 +14,8 @@
   font-size: $btn-font-size;
   color: $btn-primary-text-color;
   border-radius: $btn-border-radius;
+  text-decoration: none;
+  display: inline-block;
 }
 
 @mixin btn-primary {

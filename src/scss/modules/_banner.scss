@@ -47,10 +47,32 @@
       color: $para-color;
       margin-bottom: 34px;
     }
-    .banner-text-box {
+    .banner-text-btn {
       .learn-more-btn {
         @include btn;
-        color: red;
+        text-transform: uppercase;
+        transition: 0.3s;
+        background: $btn-primary-bg-color;
+        padding: 20px 56px;
+        margin-right: 10px;
+        &:hover {
+          @include btn-hover;
+        }
+      }
+      .play-btn {
+        @include btn;
+        text-transform: uppercase;
+        transition: 0.3s;
+        margin-left: 10px;
+        color: $btn-outline-text-color;
+        & .play-icon {
+          border-radius: 50%;
+          background: $play-btn-bg-color;
+          padding: 22px;
+          box-shadow: 0px 8px 16px 0px rgba(255, 194, 200, 0.3);
+          display: inline-block;
+          margin-right: 20px;
+        }
       }
     }
   }

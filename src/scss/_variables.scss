@@ -24,10 +24,12 @@ $btn-secondary-text-color: #79819e;
 $btn-font-size: 14px;
 $btn-border-radius: 32px;
 $btn-primary-bg-color: $navbar-primary-text-active-color;
+$btn-outline-text-color: $btn-primary-bg-color;
 $btn-secondary-bg-color: $btn-secondary-text-color;
 $btn-font-family: $navbar-primary-font;
 $btn-font-weight: $navbar-primary-font-weight-medium;
 $toggle-btn-bg-color: #fff7fa;
+$play-btn-bg-color: $toggle-btn-bg-color;
 
 //HEADING COLOR
 $heading-one-color: #000a2d;

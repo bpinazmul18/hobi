@@ -4,58 +4,61 @@
 
 .header-section {
   background: #ffffff; }
-  .header-section .navbar-wrapper {
-    max-width: 1530px;
-    margin: 0 auto; }
-    .header-section .navbar-wrapper .navbar {
-      padding: 24px; }
-      .header-section .navbar-wrapper .navbar .navbar-nav .nav-link {
-        font-family: "Rubik", sans-serif;
-        font-weight: 500;
-        font-size: 14px;
-        color: #000a2d;
-        padding: 20px 0;
-        margin-left: 20px;
-        margin-right: 20px;
-        text-transform: capitalize;
-        position: relative;
-        display: inline-block;
-        line-height: 0; }
-        .header-section .navbar-wrapper .navbar .navbar-nav .nav-link.active {
-          color: #ff3d4f; }
-          .header-section .navbar-wrapper .navbar .navbar-nav .nav-link.active:after {
-            width: 100%; }
-        .header-section .navbar-wrapper .navbar .navbar-nav .nav-link:after {
-          content: "";
-          width: 0;
-          height: 2px;
-          background: #ff3d4f;
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          transition: 0.3s; }
-        .header-section .navbar-wrapper .navbar .navbar-nav .nav-link:hover:after {
+  .header-section .navbar {
+    padding: 24px;
+    padding-left: 0;
+    padding-right: 0; }
+    .header-section .navbar .navbar-nav .nav-link {
+      font-family: "Rubik", sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      color: #000a2d;
+      padding: 20px 0;
+      margin-left: 20px;
+      margin-right: 20px;
+      text-transform: capitalize;
+      position: relative;
+      display: inline-block;
+      line-height: 0; }
+      .header-section .navbar .navbar-nav .nav-link.active {
+        color: #ff3d4f; }
+        .header-section .navbar .navbar-nav .nav-link.active:after {
           width: 100%; }
-      .header-section .navbar-wrapper .navbar .nav-btn {
+      .header-section .navbar .navbar-nav .nav-link:after {
+        content: "";
+        width: 0;
+        height: 2px;
+        background: #ff3d4f;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: 0.3s; }
+      .header-section .navbar .navbar-nav .nav-link:hover:after {
+        width: 100%; }
+    .header-section .navbar .nav-btn {
+      display: flex;
+      flex-direction: row; }
+      .header-section .navbar .nav-btn .download-cv-btn {
+        outline: none; }
+      .header-section .navbar .nav-btn .toggler-btn-right {
+        margin-left: 15px;
         display: flex;
-        flex-direction: row; }
-        .header-section .navbar-wrapper .navbar .nav-btn .download-cv-btn {
-          outline: none; }
-        .header-section .navbar-wrapper .navbar .nav-btn .toggler-btn-right {
-          margin-left: 15px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 50px;
-          height: 50px;
-          border-radius: 50%;
-          border: 0;
-          outline: none;
-          background: #fff7fa;
-          box-shadow: 0px 8px 16px 0px rgba(255, 194, 200, 0.3); }
-          .header-section .navbar-wrapper .navbar .nav-btn .toggler-btn-right img {
-            width: 14px;
-            height: 11px; }
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 0;
+        outline: none;
+        background: #fff7fa;
+        box-shadow: 0px 8px 16px 0px rgba(255, 194, 200, 0.3); }
+        .header-section .navbar .nav-btn .toggler-btn-right img {
+          width: 14px;
+          height: 11px; }
+
+.about-section {
+  padding: 120px 0;
+  background: #ffffff; }
 
 .download-cv-btn {
   font-family: "Rubik", sans-serif;
@@ -63,6 +66,8 @@
   font-size: 14px;
   color: #fff;
   border-radius: 32px;
+  text-decoration: none;
+  display: inline-block;
   background: #ff3d4f;
   border: 0;
   outline: none;
@@ -81,6 +86,8 @@
   font-size: 14px;
   color: #fff;
   border-radius: 32px;
+  text-decoration: none;
+  display: inline-block;
   background: #ff3d4f;
   border: 0;
   outline: none;
@@ -127,10 +134,37 @@
       line-height: 30px;
       color: #6e7797;
       margin-bottom: 34px; }
-    .banner-section .banner-text-box .banner-text-box .learn-more-btn {
+    .banner-section .banner-text-box .banner-text-btn .learn-more-btn {
       font-family: "Rubik", sans-serif;
       font-weight: 500;
       font-size: 14px;
       color: #fff;
       border-radius: 32px;
-      color: red; }
+      text-decoration: none;
+      display: inline-block;
+      text-transform: uppercase;
+      transition: 0.3s;
+      background: #ff3d4f;
+      padding: 20px 56px;
+      margin-right: 10px; }
+      .banner-section .banner-text-box .banner-text-btn .learn-more-btn:hover {
+        background: #79819e; }
+    .banner-section .banner-text-box .banner-text-btn .play-btn {
+      font-family: "Rubik", sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      color: #fff;
+      border-radius: 32px;
+      text-decoration: none;
+      display: inline-block;
+      text-transform: uppercase;
+      transition: 0.3s;
+      margin-left: 10px;
+      color: #ff3d4f; }
+      .banner-section .banner-text-box .banner-text-btn .play-btn .play-icon {
+        border-radius: 50%;
+        background: #fff7fa;
+        padding: 22px;
+        box-shadow: 0px 8px 16px 0px rgba(255, 194, 200, 0.3);
+        display: inline-block;
+        margin-right: 20px; }
