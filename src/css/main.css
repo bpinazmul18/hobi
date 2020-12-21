@@ -2,6 +2,10 @@
   max-width: 1170px;
   margin: 0 auto; }
 
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
 .header-section {
   background: #ffffff; }
   .header-section .navbar {
@@ -74,8 +78,13 @@
   max-width: 1170px;
   margin: 0 auto; }
 
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
 .about-section {
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 100px;
   background: #ffffff;
   border-bottom: 1px solid #f0ecff; }
   .about-section .about-left-content-wrapper h6 {
@@ -136,6 +145,14 @@
         background: #ff3d4f;
         border-color: transparent;
         color: #fff; }
+
+.services-section {
+  padding: 120px 0;
+  background: #ffffff; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
 
 .container {
   max-width: 1170px;
@@ -212,4 +229,50 @@
         padding: 22px;
         box-shadow: 0px 8px 16px 0px rgba(255, 194, 200, 0.3);
         display: inline-block;
+        margin-right: 20px; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.card {
+  border: 8px solid #f7f8ff;
+  padding: 50px; }
+  .card .card-icon {
+    margin-bottom: 30px; }
+    .card .card-icon img {
+      width: auto; }
+  .card .card-body {
+    padding: 0;
+    margin-bottom: 30px; }
+    .card .card-body .card-title {
+      font-family: "Rufina", serif;
+      font-weight: 400;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 26px;
+      color: #000a2d;
+      margin-bottom: 14px; }
+    .card .card-body .card-text {
+      font-family: "Rubik", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 26px;
+      color: #6e7797; }
+  .card .card-list-group {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+    .card .card-list-group li {
+      margin-bottom: 16px;
+      font-size: 14px;
+      line-height: normal;
+      font-family: "Rubik", sans-serif;
+      font-weight: 400;
+      color: #6e7798; }
+      .card .card-list-group li:last-child {
+        margin-bottom: 0; }
+      .card .card-list-group li i {
+        color: #ff3d4f;
+        font-size: 15px;
         margin-right: 20px; }

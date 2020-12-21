@@ -1,0 +1,45 @@
+@import "../variables";
+@import "../base/base";
+
+@mixin card{
+  border: 8px solid $card-border-color;
+  padding: 50px;
+  .card-icon {
+    margin-bottom: 30px;
+    img {
+      width: auto;
+    }
+  }
+  .card-body {
+    padding: 0;
+    margin-bottom: 30px;
+    .card-title {
+      @include heading-four;
+      margin-bottom: 14px;
+    }
+    .card-text {
+      @include card-text;
+    }
+  }
+  .card-list-group {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    li {
+      margin-bottom: 16px;
+      font-size: 14px;
+      line-height: normal;
+      font-family: $primary-font;
+      font-weight: $font-weight-regular;
+      color: $card-list-text-color;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      i {
+        color: $card-list-icon-color;
+        font-size: 15px;
+        margin-right: 20px;
+      }
+    }
+  }
+}

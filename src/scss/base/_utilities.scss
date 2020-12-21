@@ -28,3 +28,18 @@
   color: $para-color;
   line-height: 26px;
 }
+
+@mixin heading-four {
+  @include heading-secondary-font;
+  font-weight: $font-weight-bold;
+  font-size: 24px;
+  line-height: 26px;
+  color: $heading-four-color;
+}
+
+@mixin card-text {
+  @include heading-primary-font;
+  font-size: 14px;
+  line-height: 26px;
+  color: $para-color;
+}
