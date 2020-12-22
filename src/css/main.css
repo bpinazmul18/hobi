@@ -198,6 +198,68 @@
   max-width: 1170px;
   margin: 0 auto; }
 
+.portfolio-section {
+  padding: 120px 0;
+  background: #ffffff; }
+  .portfolio-section .portfolio-section-heading h6 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ff3d4f;
+    line-height: 24px;
+    margin-bottom: 22px; }
+  .portfolio-section .portfolio-section-heading h2 {
+    font-family: "Rufina", serif;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 90px;
+    color: #000a2d;
+    font-weight: 600; }
+  .portfolio-section .portfolio-list-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .portfolio-section .portfolio-list-wrapper .portfolio-projects-titles {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      border-bottom: 2px solid #f0ecff; }
+      .portfolio-section .portfolio-list-wrapper .portfolio-projects-titles li {
+        font-family: "Rubik", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #6e7797;
+        line-height: 26px;
+        font-size: 14px;
+        color: #000a2d;
+        position: relative;
+        display: inline-block;
+        padding: 0 25px 10px;
+        cursor: pointer; }
+        .portfolio-section .portfolio-list-wrapper .portfolio-projects-titles li:first-child {
+          padding-left: 12px; }
+        .portfolio-section .portfolio-list-wrapper .portfolio-projects-titles li:last-child {
+          padding-left: 12px; }
+        .portfolio-section .portfolio-list-wrapper .portfolio-projects-titles li:after {
+          content: "";
+          position: absolute;
+          width: 0;
+          height: 3px;
+          bottom: 0;
+          left: 0;
+          background: #ff3d4f;
+          margin-bottom: -1px;
+          transition: 0.3s; }
+        .portfolio-section .portfolio-list-wrapper .portfolio-projects-titles li.active {
+          color: #ff3d4f; }
+          .portfolio-section .portfolio-list-wrapper .portfolio-projects-titles li.active:after {
+            width: 100%; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
 .container {
   max-width: 1170px;
   margin: 0 auto; }

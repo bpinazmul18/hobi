@@ -49,3 +49,10 @@
   line-height: 26px;
   color: $para-color;
 }
+
+//PORTFOLIO LIST STYLE
+@mixin list-style {
+  @include paragraph-primary;
+  font-size: 14px;
+  color: $portfolio-list-text-color;
+}
