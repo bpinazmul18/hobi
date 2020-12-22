@@ -1,0 +1,53 @@
+@import "../variables";
+@import "../base/base";
+.experience-section {
+  padding: 120px 0;
+  background: $secondary-bg-color;
+  .section-title {
+    margin-bottom: 60px;
+    h6 {
+      @include heading-six;
+      margin-bottom: 20px;
+    }
+    h2 {
+      @include heading-two;
+    }
+  }
+  .card {
+    margin: 12px 0;
+    border: 0;
+    padding: 40px;
+    background: $card-bg-white;
+    .card-header {
+      padding: 0;
+      border-radius: 0;
+      background: none;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      border: none;
+      margin-bottom: 30px;
+      .card-icon {
+        margin: 0;
+        height: 80px;
+        width: 80px;
+        background: $card-icon-bg-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30px;
+      }
+      .card-title {
+        h6 {
+          @include heading-six;
+          line-height: 16px;
+        }
+        h4 {
+          @include heading-four;
+          font-size: 26px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
