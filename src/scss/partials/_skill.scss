@@ -1,0 +1,41 @@
+@import "../variables";
+@import "../base/base";
+.skill-section {
+  padding: 120px 0;
+  background: $secondary-bg-color;
+  .img-box {
+    img {
+      border: 12px solid $primary-bg-color;
+      box-shadow: 0px 16px 32px 0px rgba(167, 178, 219, 0.3);
+    }
+  }
+  .skill-content-wrapper {
+    h6 {
+      @include heading-six;
+      margin-bottom: 40px;
+    }
+    h2 {
+      @include heading-two;
+      margin-bottom: 40px;
+    }
+    .skill-animated-progress-bar {
+      h6 {
+        @include heading-six;
+        font-weight: $font-weight-medium;
+        line-height: 50px;
+        color: $progress-bar-label-color;
+        margin-bottom: 0;
+      }
+      .progress {
+        height: 20px;
+        border-radius: 0;
+        margin-bottom: 24px;
+        background: $progress-bg-color;
+        .progress-bar {
+          width: 0;
+          background: $progress-bar-bg-color;
+        }
+      }
+    }
+  }
+}

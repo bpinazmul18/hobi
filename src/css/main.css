@@ -154,6 +154,50 @@
   max-width: 1170px;
   margin: 0 auto; }
 
+.skill-section {
+  padding: 120px 0;
+  background: #f6f5ff; }
+  .skill-section .img-box img {
+    border: 12px solid #ffffff;
+    box-shadow: 0px 16px 32px 0px rgba(167, 178, 219, 0.3); }
+  .skill-section .skill-content-wrapper h6 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ff3d4f;
+    line-height: 24px;
+    margin-bottom: 40px; }
+  .skill-section .skill-content-wrapper h2 {
+    font-family: "Rufina", serif;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 90px;
+    color: #000a2d;
+    font-weight: 600;
+    margin-bottom: 40px; }
+  .skill-section .skill-content-wrapper .skill-animated-progress-bar h6 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ff3d4f;
+    line-height: 24px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #6e7797;
+    margin-bottom: 0; }
+  .skill-section .skill-content-wrapper .skill-animated-progress-bar .progress {
+    height: 20px;
+    border-radius: 0;
+    margin-bottom: 24px;
+    background: #ffffff; }
+    .skill-section .skill-content-wrapper .skill-animated-progress-bar .progress .progress-bar {
+      width: 0;
+      background: #ff3d4f; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
 .container {
   max-width: 1170px;
   margin: 0 auto; }

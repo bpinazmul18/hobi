@@ -37,6 +37,12 @@
   color: $heading-four-color;
 }
 
+@mixin heading-six {
+  @include heading-primary-font;
+  font-size: 14px;
+  color: $heading-six-color;
+  line-height: 24px;
+}
 @mixin card-text {
   @include heading-primary-font;
   font-size: 14px;
