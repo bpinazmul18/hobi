@@ -3,12 +3,11 @@ $secondary-font: 'Rufina', serif;
 $font-weight-regular: 400;
 $font-weight-medium: 500;
 $font-weight-semibold: 600;
-$font-weight-bold: 600;
+$font-weight-bold: 700;
 $primary-bg-color: #ffffff;
 $secondary-bg-color: #f6f5ff;
 //HEADER COLOR
 $primary-header-bg-color: $primary-bg-color;
-
 //NAVBAR COLOR, FONT..
 $navbar-primary-font: $primary-font;
 $navbar-primary-font-weight-medium: 500;
@@ -67,3 +66,12 @@ $call-to-action-section-bg-color: #000a2d;
 //CARD ICON BACKGROUND
 $card-icon-bg-color: #fff2f3;
 $card-bg-white: #ffffff;
+
+//EDUCATION SECTION
+$education-list-border-color: #ffe7e5;
+$education-list-circle-bg-color: #ffffff;
+$check-icon-bg-color: #ff3d4f;
+
+//TEXT COLOR
+$text-white-color: $btn-primary-text-color;
+

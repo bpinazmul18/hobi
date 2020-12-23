@@ -209,9 +209,9 @@
             </div>
             <div class="col-md-6">
                 <div class="portfolio-list-wrapper">
-                    <ul class="portfolio-projects-titles">
+                    <ul class="portfolio-projects-titles filter-button-group">
                         <li data-filter="*">All Works</li>
-                        <li data-filter=".ui-ux" class="active">UI/UX</li>
+                        <li data-filter=".ui-ux">UI/UX</li>
                         <li data-filter=".web-design">Web Design</li>
                         <li data-filter=".branding">Branding</li>
                         <li data-filter=".logo">Logo</li>
@@ -219,38 +219,24 @@
                 </div>
             </div>
         </div>
-        <div class="row no-gutters portfolio-projects-list">
-            <div class="col-md-8">
-                <div class="row no-gutters ">
-                    <div class="col-12">
-                        <div class="portfolio-single-item ui-ux web-design">
-                            <img src="img/portfolio-img1.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="portfolio-single-item branding logo">
-                            <img src="img/portfolio-img3.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="portfolio-single-item banding logo ui-ux">
-                            <img src="img/portfolio-img3.jpg" alt="">
-                        </div>
+        <div class="row">
+            <div class="grid">
+                <div class="col-md-8 grid-item ui-ux branding">
+                    <div class="portfolio-item">
+                        <img src="img/portfolio-img1.jpg" alt="">
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="row no-gutters ">
-                    <div class="col-12">
-                        <div class="portfolio-single-item web-design logo">
-                            <img src="img/portfolio-right-img.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="portfolio-single-item logo web-design ui-ux">
-                            <img src="img/portfolio-right-img.jpg" alt="">
-                        </div>
-                    </div>
+                <div class="col-md-4 grid-item web-design">
+                    <img src="img/portfolio-img2.jpg" alt="">
+                </div>
+                <div class="col-md-4 grid-item ui-ux">
+                    <img src="img/portfolio-img2.jpg" alt="">
+                </div>
+                <div class="col-md-4 grid-item web-design branding">
+                    <img src="img/portfolio-img3.jpg" alt="">
+                </div>
+                <div class="col-md-4 grid-item ui-ux logo">
+                    <img src="img/portfolio-img3.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -356,7 +342,7 @@
                         </div>
                         <div class="card-title">
                             <h6>Google Co. [2010-2014]</h6>
-                            <h4>Office Asst.</h4>
+                            <h4>Office Assistant</h4>
                         </div>
                     </div>
                     <div class="card-body">
@@ -367,9 +353,64 @@
         </div>
     </div>
 </section>
+<!-- EDUCATION-SECTION -->
+<section class="education-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="education-text-box">
+                    <h6>My Qualification</h6>
+                    <h2>Education</h2>
+                    <div class="education-list-wrapper">
+                        <div class="card">
+                            <span class="circle"></span>
+                            <div class="card-header">
+                                <h6>Humble Mimbo School & College. [2010-2014]</h6>
+                                <h4 class="card-title">Higher Secondary Certificate</h4>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna in aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <span class="circle"></span>
+                            <div class="card-header">
+                                <h6>Humble Mimbo School & College. [2010-2014]</h6>
+                                <h4 class="card-title">Computer Science</h4>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna in aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <span class="circle"></span>
+                            <div class="card-header">
+                                <h6>Humble Mimbo School & College. [2010-2014]</h6>
+                                <h4 class="card-title">UX/CPD Develop</h4>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna in aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="education-img-wrapper">
+                    <img src="img/education-small-img2.jpg" alt="">
+                    <div class="education-img-icon text-right">
+                        <span><i class="fas fa-check"></i></span>
+                        <img src="img/education-big-img1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
     <script src="js/vendors/jquery-3.5.1.min.js"></script>
     <script src="js/vendors/popper.min.js"></script>
     <script src="js/vendors/bootstrap.min.js"></script>
+    <script src="js/vendors/isotope.pkgd.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

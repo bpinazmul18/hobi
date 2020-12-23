@@ -4,10 +4,6 @@
 .banner-section {
   background: $secondary-bg-color;
   overflow: hidden;
-  //.row {
-  //  min-height: 400px;
-  //  position: relative;
-  //}
   position: relative;
   .banner-right-img {
     position: absolute;
@@ -21,7 +17,7 @@
 
     img {
       width: 100%;
-      height: auto;
+      height: 100%;
     }
   }
   .banner-text-box {

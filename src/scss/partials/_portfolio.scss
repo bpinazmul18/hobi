@@ -3,7 +3,7 @@
 .portfolio-section {
   padding: 120px 0;
   background: $primary-bg-color;
-
+  display: none;
   .portfolio-section-heading {
     h6 {
       @include heading-six;
@@ -55,14 +55,10 @@
       }
     }
   }
-  .portfolio-projects-list {
-    .portfolio-single-item {
-      height: 100%;
-      img {
-        width: 100%;
-        height: 100%;
-      }
-      padding: 5px 0;
+
+  .portfolio-item {
+    img {
+      width: 100%;
     }
   }
 }

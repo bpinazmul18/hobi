@@ -2,27 +2,9 @@
   max-width: 1170px;
   margin: 0 auto; }
 
-.no-gutters {
-  margin-right: -5px;
-  margin-left: -5px;
-  height: 100%; }
-  .no-gutters > .col,
-  .no-gutters > [class*="col-"] {
-    padding-right: 5px;
-    padding-left: 5px; }
-
 .container {
   max-width: 1170px;
   margin: 0 auto; }
-
-.no-gutters {
-  margin-right: -5px;
-  margin-left: -5px;
-  height: 100%; }
-  .no-gutters > .col,
-  .no-gutters > [class*="col-"] {
-    padding-right: 5px;
-    padding-left: 5px; }
 
 .header-section {
   background: #ffffff; }
@@ -96,27 +78,9 @@
   max-width: 1170px;
   margin: 0 auto; }
 
-.no-gutters {
-  margin-right: -5px;
-  margin-left: -5px;
-  height: 100%; }
-  .no-gutters > .col,
-  .no-gutters > [class*="col-"] {
-    padding-right: 5px;
-    padding-left: 5px; }
-
 .container {
   max-width: 1170px;
   margin: 0 auto; }
-
-.no-gutters {
-  margin-right: -5px;
-  margin-left: -5px;
-  height: 100%; }
-  .no-gutters > .col,
-  .no-gutters > [class*="col-"] {
-    padding-right: 5px;
-    padding-left: 5px; }
 
 .about-section {
   padding-top: 120px;
@@ -136,7 +100,7 @@
     font-size: 70px;
     line-height: 90px;
     color: #000a2d;
-    font-weight: 600; }
+    font-weight: 700; }
   .about-section .about-right-content-wrapper p {
     font-family: "Rubik", sans-serif;
     font-weight: 400;
@@ -190,15 +154,6 @@
   max-width: 1170px;
   margin: 0 auto; }
 
-.no-gutters {
-  margin-right: -5px;
-  margin-left: -5px;
-  height: 100%; }
-  .no-gutters > .col,
-  .no-gutters > [class*="col-"] {
-    padding-right: 5px;
-    padding-left: 5px; }
-
 .skill-section {
   padding: 120px 0;
   background: #f6f5ff; }
@@ -218,7 +173,7 @@
     font-size: 70px;
     line-height: 90px;
     color: #000a2d;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 40px; }
   .skill-section .skill-content-wrapper .skill-animated-progress-bar h6 {
     font-family: "Rubik", sans-serif;
@@ -243,18 +198,10 @@
   max-width: 1170px;
   margin: 0 auto; }
 
-.no-gutters {
-  margin-right: -5px;
-  margin-left: -5px;
-  height: 100%; }
-  .no-gutters > .col,
-  .no-gutters > [class*="col-"] {
-    padding-right: 5px;
-    padding-left: 5px; }
-
 .portfolio-section {
   padding: 120px 0;
-  background: #ffffff; }
+  background: #ffffff;
+  display: none; }
   .portfolio-section .portfolio-section-heading h6 {
     font-family: "Rubik", sans-serif;
     font-weight: 400;
@@ -268,7 +215,7 @@
     font-size: 70px;
     line-height: 90px;
     color: #000a2d;
-    font-weight: 600; }
+    font-weight: 700; }
   .portfolio-section .portfolio-list-wrapper {
     height: 100%;
     display: flex;
@@ -309,25 +256,12 @@
           color: #ff3d4f; }
           .portfolio-section .portfolio-list-wrapper .portfolio-projects-titles li.active:after {
             width: 100%; }
-  .portfolio-section .portfolio-projects-list .portfolio-single-item {
-    height: 100%;
-    padding: 5px 0; }
-    .portfolio-section .portfolio-projects-list .portfolio-single-item img {
-      width: 100%;
-      height: 100%; }
+  .portfolio-section .portfolio-item img {
+    width: 100%; }
 
 .container {
   max-width: 1170px;
   margin: 0 auto; }
-
-.no-gutters {
-  margin-right: -5px;
-  margin-left: -5px;
-  height: 100%; }
-  .no-gutters > .col,
-  .no-gutters > [class*="col-"] {
-    padding-right: 5px;
-    padding-left: 5px; }
 
 .experience-section {
   padding: 120px 0;
@@ -347,7 +281,7 @@
       font-size: 70px;
       line-height: 90px;
       color: #000a2d;
-      font-weight: 600; }
+      font-weight: 700; }
   .experience-section .card {
     margin: 12px 0;
     border: 0;
@@ -381,7 +315,7 @@
       .experience-section .card .card-header .card-title h4 {
         font-family: "Rufina", serif;
         font-weight: 400;
-        font-weight: 600;
+        font-weight: 700;
         font-size: 24px;
         line-height: 26px;
         color: #000a2d;
@@ -392,27 +326,108 @@
   max-width: 1170px;
   margin: 0 auto; }
 
-.no-gutters {
-  margin-right: -5px;
-  margin-left: -5px;
-  height: 100%; }
-  .no-gutters > .col,
-  .no-gutters > [class*="col-"] {
-    padding-right: 5px;
-    padding-left: 5px; }
+.education-section {
+  padding: 120px 0;
+  background: #ffffff; }
+  .education-section .education-text-box h6 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ff3d4f;
+    line-height: 24px;
+    margin-bottom: 20px; }
+  .education-section .education-text-box h2 {
+    font-family: "Rufina", serif;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 90px;
+    color: #000a2d;
+    font-weight: 700;
+    margin-bottom: 30px; }
+  .education-section .education-text-box .education-list-wrapper .card {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    padding-left: 40px; }
+    .education-section .education-text-box .education-list-wrapper .card:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 1px;
+      background: #ffe7e5; }
+    .education-section .education-text-box .education-list-wrapper .card .circle {
+      width: 15px;
+      height: 15px;
+      background: #ffffff;
+      border-radius: 50%;
+      box-shadow: 4px 4px 9px 0px rgba(255, 61, 79, 0.3);
+      position: absolute;
+      top: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: -7px;
+      left: 0; }
+      .education-section .education-text-box .education-list-wrapper .card .circle:after {
+        content: "";
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 5px;
+        height: 5px;
+        background: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%; }
+    .education-section .education-text-box .education-list-wrapper .card .card-header {
+      background: none;
+      border: none;
+      margin: 0;
+      padding: 0; }
+      .education-section .education-text-box .education-list-wrapper .card .card-header h6 {
+        margin-bottom: 16px; }
+      .education-section .education-text-box .education-list-wrapper .card .card-header h4 {
+        font-family: "Rufina", serif;
+        font-weight: 400;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 26px;
+        color: #000a2d;
+        font-size: 26px;
+        line-height: 24px;
+        margin-bottom: 22px; }
+    .education-section .education-text-box .education-list-wrapper .card .card-body .card-text {
+      line-height: 26px; }
+  .education-section .education-img-wrapper img {
+    margin-bottom: -30%; }
+  .education-section .education-img-wrapper .education-img-icon {
+    position: relative; }
+    .education-section .education-img-wrapper .education-img-icon span {
+      width: 80px;
+      height: 80px;
+      background: #ff3d4f;
+      font-size: 20px;
+      padding: 30px;
+      position: absolute;
+      top: 85%;
+      left: 14%;
+      box-shadow: 0px 8px 16px 0px rgba(255, 61, 79, 0.3); }
+      .education-section .education-img-wrapper .education-img-icon span i {
+        color: #fff; }
+    .education-section .education-img-wrapper .education-img-icon img {
+      width: auto; }
 
 .container {
   max-width: 1170px;
   margin: 0 auto; }
 
-.no-gutters {
-  margin-right: -5px;
-  margin-left: -5px;
-  height: 100%; }
-  .no-gutters > .col,
-  .no-gutters > [class*="col-"] {
-    padding-right: 5px;
-    padding-left: 5px; }
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
 
 .banner-section {
   background: #f6f5ff;
@@ -429,7 +444,7 @@
     width: 45%; }
     .banner-section .banner-right-img img {
       width: 100%;
-      height: auto; }
+      height: 100%; }
   .banner-section .banner-text-box {
     padding: 220px 0; }
     .banner-section .banner-text-box h5 {
@@ -491,15 +506,6 @@
   max-width: 1170px;
   margin: 0 auto; }
 
-.no-gutters {
-  margin-right: -5px;
-  margin-left: -5px;
-  height: 100%; }
-  .no-gutters > .col,
-  .no-gutters > [class*="col-"] {
-    padding-right: 5px;
-    padding-left: 5px; }
-
 .card {
   border: 8px solid #f7f8ff;
   padding: 50px; }
@@ -513,7 +519,7 @@
     .card .card-body .card-title {
       font-family: "Rufina", serif;
       font-weight: 400;
-      font-weight: 600;
+      font-weight: 700;
       font-size: 24px;
       line-height: 26px;
       color: #000a2d;
