@@ -42,7 +42,12 @@
   font-size: 26px;
   line-height: 24px;
 }
-
+@mixin heading-five {
+  @include heading-secondary-font;
+  font-weight: $font-weight-bold;
+  color: $heading-five-extends-color;
+  font-size: 24px;
+}
 @mixin heading-six {
   @include heading-primary-font;
   font-size: 14px;
@@ -61,5 +66,12 @@
   @include paragraph-primary;
   font-size: 14px;
   color: $portfolio-list-text-color;
+}
+
+@mixin team-member-title {
+  @include heading-primary-font;
+  font-weight: $font-weight-medium;
+  color: $team-member-title-text-color;
+  font-size: 14px;
 }
 

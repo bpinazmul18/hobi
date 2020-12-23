@@ -1,0 +1,63 @@
+@import "../variables";
+@import "../base/base";
+.team-section {
+  padding: 120px 0;
+  background: $secondary-bg-color;
+  .section-title {
+    h6 {
+      @include heading-six;
+      margin-bottom: 30px;
+    }
+    h2 {
+      @include heading-two;
+      margin-bottom: 60px;
+    }
+  }
+  .card-single-item {
+    position: relative;
+    .card {
+      padding: 0;
+      border: none;
+      position: relative;
+      .img-top {
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .card-member-title {
+      position: absolute;
+      bottom: -100px;
+      left: 5%;
+      width: 90%;
+      display: block;
+      background:$primary-bg-color;
+      padding: 40px;
+      h5 {
+        @include heading-five;
+      }
+      span {
+        @include team-member-title;
+      }
+      .social-icon {
+        margin-top: 10px;
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+          display: flex;
+          justify-content: center;
+
+          li {
+            padding: 0 8px;
+            a {
+              i {
+                color: $card-icon-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

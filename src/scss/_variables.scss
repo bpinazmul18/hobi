@@ -36,8 +36,9 @@ $heading-one-color: #000a2d;
 $heading-two-color: $heading-one-color;
 $heading-four-color: $heading-one-color;
 $heading-five-color: #ff3d4f;
+$heading-five-extends-color: $heading-one-color;
 $heading-six-color: $heading-five-color;
-
+$team-member-title-text-color: $heading-five-color;
 //PARAGRAPH
 $para-color: #6e7797;
 
@@ -74,4 +75,7 @@ $check-icon-bg-color: #ff3d4f;
 
 //TEXT COLOR
 $text-white-color: $btn-primary-text-color;
+
+//ICON COLOR
+$card-icon-color: #c1bfd8;
 

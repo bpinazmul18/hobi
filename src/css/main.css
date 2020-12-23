@@ -425,6 +425,69 @@
   max-width: 1170px;
   margin: 0 auto; }
 
+.team-section {
+  padding: 120px 0;
+  background: #f6f5ff; }
+  .team-section .section-title h6 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ff3d4f;
+    line-height: 24px;
+    margin-bottom: 30px; }
+  .team-section .section-title h2 {
+    font-family: "Rufina", serif;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 90px;
+    color: #000a2d;
+    font-weight: 700;
+    margin-bottom: 60px; }
+  .team-section .card-single-item {
+    position: relative; }
+    .team-section .card-single-item .card {
+      padding: 0;
+      border: none;
+      position: relative; }
+      .team-section .card-single-item .card .img-top img {
+        width: 100%; }
+    .team-section .card-single-item .card-member-title {
+      position: absolute;
+      bottom: -100px;
+      left: 5%;
+      width: 90%;
+      display: block;
+      background: #ffffff;
+      padding: 40px; }
+      .team-section .card-single-item .card-member-title h5 {
+        font-family: "Rufina", serif;
+        font-weight: 400;
+        font-weight: 700;
+        color: #000a2d;
+        font-size: 24px; }
+      .team-section .card-single-item .card-member-title span {
+        font-family: "Rubik", sans-serif;
+        font-weight: 400;
+        font-weight: 500;
+        color: #ff3d4f;
+        font-size: 14px; }
+      .team-section .card-single-item .card-member-title .social-icon {
+        margin-top: 10px; }
+        .team-section .card-single-item .card-member-title .social-icon ul {
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+          display: flex;
+          justify-content: center; }
+          .team-section .card-single-item .card-member-title .social-icon ul li {
+            padding: 0 8px; }
+            .team-section .card-single-item .card-member-title .social-icon ul li a i {
+              color: #c1bfd8; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
 .container {
   max-width: 1170px;
   margin: 0 auto; }
