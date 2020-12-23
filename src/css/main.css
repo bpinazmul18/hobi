@@ -426,7 +426,8 @@
   margin: 0 auto; }
 
 .team-section {
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 220px;
   background: #f6f5ff; }
   .team-section .section-title h6 {
     font-family: "Rubik", sans-serif;
@@ -483,6 +484,93 @@
             padding: 0 8px; }
             .team-section .card-single-item .card-member-title .social-icon ul li a i {
               color: #c1bfd8; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.contact-section {
+  padding: 120px 0;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../../img/maps.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .contact-section .section-title {
+    margin-bottom: 60px !important; }
+    .contact-section .section-title h6 {
+      font-family: "Rubik", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: #ff3d4f;
+      line-height: 24px; }
+    .contact-section .section-title h2 {
+      font-family: "Rufina", serif;
+      font-weight: 400;
+      font-size: 70px;
+      line-height: 90px;
+      color: #000a2d;
+      font-weight: 700; }
+  .contact-section form input {
+    border: 0; }
+    .contact-section form input:focus {
+      outline: none;
+      border: none; }
+  .contact-section form .form-group {
+    display: flex;
+    flex-direction: column; }
+    .contact-section form .form-group label {
+      font-family: "Rubik", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: #6e7797;
+      line-height: 26px;
+      color: #000a2d;
+      margin-bottom: 10px; }
+      .contact-section form .form-group label span {
+        color: #ff3d4f; }
+    .contact-section form .form-group input {
+      border: 2px solid #dadceb;
+      padding: 20px 36px;
+      background: #ffffff;
+      margin-bottom: 16px; }
+      .contact-section form .form-group input::placeholder {
+        font-family: "Rubik", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #6e7797;
+        line-height: 26px; }
+    .contact-section form .form-group textarea {
+      width: 100%;
+      border: 2px solid #dadceb;
+      padding: 20px 36px; }
+      .contact-section form .form-group textarea:focus {
+        outline: 0; }
+      .contact-section form .form-group textarea::placeholder {
+        font-family: "Rubik", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #6e7797;
+        line-height: 26px; }
+  .contact-section form input[type="submit"] {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 32px;
+    text-decoration: none;
+    display: inline-block;
+    background: #ff3d4f;
+    border: 0;
+    outline: none;
+    padding: 20px 58px;
+    transition: 0.3s;
+    padding: 20px 76px; }
+    .contact-section form input[type="submit"]:hover {
+      background: #79819e; }
 
 .container {
   max-width: 1170px;

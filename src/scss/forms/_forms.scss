@@ -1,0 +1,23 @@
+@import "../variables";
+@mixin input-field {
+  input {
+    border: 0;
+    &:focus {
+      outline: none;
+      border: none;
+    }
+  }
+}
+
+@mixin form-input {
+  @include input-field;
+}
+
+@mixin textarea {
+  width: 100%;
+  border: 2px solid $input-border-color;
+  padding: 20px 36px;
+  &:focus {
+    outline: 0;
+  }
+}

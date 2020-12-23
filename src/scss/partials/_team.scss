@@ -1,7 +1,8 @@
 @import "../variables";
 @import "../base/base";
 .team-section {
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 220px;
   background: $secondary-bg-color;
   .section-title {
     h6 {

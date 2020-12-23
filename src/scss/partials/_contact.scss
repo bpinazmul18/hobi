@@ -1,0 +1,57 @@
+@import "../variables";
+@import "../base/base";
+@import "../forms/forms";
+@import "../mixins/mixins";
+.contact-section {
+  padding: 120px 0;
+  background: linear-gradient(rgba(255, 255, 255,.3),rgba(255, 255, 255,.3)),url("../../img/maps.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  .section-title {
+    margin-bottom: 60px!important;
+    h6 {
+      @include heading-six;
+    }
+    h2 {
+      @include heading-two;
+    }
+  }
+  form {
+    @include form-input;
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      label {
+        @include label-style;
+        margin-bottom: 10px;
+        span {
+          color: $label-span-color;
+        }
+      }
+      input {
+        border: 2px solid $input-border-color;
+        padding: 20px 36px;
+        background: $primary-bg-color;
+        margin-bottom: 16px;
+        &::placeholder {
+          @include placeholder-style;
+        }
+      }
+      textarea {
+        @include textarea;
+        &::placeholder {
+          @include placeholder-style;
+        }
+      }
+    }
+    input[type="submit"] {
+      @include submit-btn;
+      transition: 0.3s;
+      padding: 20px 76px;
+      &:hover {
+        @include btn-hover;
+      }
+    }
+  }
+}

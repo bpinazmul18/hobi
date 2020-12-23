@@ -40,3 +40,8 @@
   border-color: transparent;
   color: $btn-primary-text-color;
 }
+
+@mixin submit-btn {
+  @include btn-primary;
+  @include lg;
+}

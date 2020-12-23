@@ -75,3 +75,12 @@
   font-size: 14px;
 }
 
+@mixin placeholder-style {
+  @include paragraph-primary;
+}
+
+@mixin label-style {
+  @include paragraph-primary;
+  color: $label-color;
+}
+
