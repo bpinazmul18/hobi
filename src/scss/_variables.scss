@@ -40,6 +40,7 @@ $heading-five-color: #ff3d4f;
 $heading-five-extends-color: $heading-one-color;
 $heading-six-color: $heading-five-color;
 $team-member-title-text-color: $heading-five-color;
+$heading-four-for-card-color: $heading-one-color;
 //PARAGRAPH
 $para-color: #6e7797;
 
@@ -47,7 +48,7 @@ $para-color: #6e7797;
 $section-border-color: #f0ecff;
 
 //SERVICES SECTION
-$card-border-color: #f7f8ff;
+$card-border-color: #dadceb;
 $card-list-icon-color: #ff3d4f;
 $card-list-text-color: #6e7798;
 
@@ -89,4 +90,9 @@ $label-span-color: #ff3d4f;
 //COUNTER TEXT COLOR
 $counter-text-color: $label-color;
 $span-title-color: #959cb4;
+
+
+//TESTIMONIAL CARD COLOR
+$testimonial-text-color: #959cb4;
+$secondary-card-border-color: #dadceb;
 

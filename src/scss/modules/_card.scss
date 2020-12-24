@@ -2,3 +2,7 @@
 .card {
   @include card;
 }
+
+@mixin card-extends {
+  border: 2px solid $secondary-card-border-color;
+}

@@ -1,0 +1,91 @@
+@import "../variables";
+@import "../base/base";
+@import "../modules/modules";
+.testimonial-section {
+  padding: 120px 0;
+  background: $primary-bg-color;
+  .section-title {
+    margin-bottom: 20px;
+
+    h6 {
+      @include heading-six;
+      margin-bottom: 30px;
+    }
+    h2 {
+      @include heading-two;
+    }
+  }
+  .testimonial-activator {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: -1%;
+      left: 57%;
+      background: url("../../img/quote.png") no-repeat;
+      width: 100px;
+      height: 100px;
+    }
+    .testimonial-item {
+      .card {
+        @include card-extends;
+        padding: 46px 36px;
+        .card-header {
+          background: none;
+          padding: 0;
+          border: 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 26px;
+          .card-icon {
+            margin: 0;
+          }
+          h4 {
+            @include heading-four-for-card;
+            margin: 0;
+            position: relative;
+            &:before {
+              content: "❝";
+              position: absolute;
+              top: 0;
+              left: -14px;
+            }
+            &:after {
+              content: "❝";
+              position: absolute;
+              top: 0;
+              right: -14px;
+            }
+          }
+        }
+        .card-body {
+          margin-bottom: 22px;
+          .card-text {
+            @include card-text;
+          }
+        }
+        .card-footer {
+          padding: 0;
+          border: none;
+          background: none;
+          display: flex;
+          align-items: center;
+          .card-footer-text {
+            margin-left: 20px;
+            h3 {
+              @include heading-four-for-card;
+              margin-bottom: 0;
+            }
+            span {
+              @include heading-six;
+              font-weight: $font-weight-medium;
+            }
+          }
+        }
+      }
+    }
+  }
+}
