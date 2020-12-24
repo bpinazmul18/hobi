@@ -28,7 +28,12 @@
   color: $para-color;
   line-height: 26px;
 }
-
+@mixin heading-three {
+  @include heading-primary-font;
+  font-size: 20px;
+  font-weight: $font-weight-semibold;
+  color: $heading-four-color;
+}
 @mixin heading-four {
   @include heading-secondary-font;
   font-weight: $font-weight-bold;
@@ -111,4 +116,9 @@
 @mixin card-text {
   @include paragraph-primary;
   color: $testimonial-text-color;
+}
+
+@mixin popUp {
+  @include heading-primary-font;
+
 }

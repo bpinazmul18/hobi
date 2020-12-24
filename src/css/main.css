@@ -577,6 +577,25 @@
     .contact-section .location-wrapper .map-init {
       height: 100%;
       width: auto; }
+  .contact-section .leaflet-popup-content-wrapper {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6e7797;
+    line-height: 26px; }
+    .contact-section .leaflet-popup-content-wrapper h3 {
+      font-family: "Rubik", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      font-weight: 600;
+      color: #000a2d;
+      margin-bottom: 10px; }
+    .contact-section .leaflet-popup-content-wrapper p {
+      font-family: "Rubik", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: #6e7797;
+      line-height: 26px; }
 
 .container {
   max-width: 1170px;
@@ -766,80 +785,141 @@
       line-height: 90px;
       color: #000a2d;
       font-weight: 700; }
-  .testimonial-section .testimonial-activator {
+  .testimonial-section .testimonial-carousel {
     display: flex;
     flex-direction: row;
     position: relative; }
-    .testimonial-section .testimonial-activator:after {
+    .testimonial-section .testimonial-carousel:after {
       content: "";
       position: absolute;
-      bottom: -1%;
+      bottom: 10%;
       left: 57%;
       background: url("../../img/quote.png") no-repeat;
       width: 100px;
       height: 100px; }
-    .testimonial-section .testimonial-activator .testimonial-item .card {
-      border: 2px solid #dadceb;
-      padding: 46px 36px; }
-      .testimonial-section .testimonial-activator .testimonial-item .card .card-header {
-        background: none;
-        padding: 0;
-        border: 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 26px; }
-        .testimonial-section .testimonial-activator .testimonial-item .card .card-header .card-icon {
-          margin: 0; }
-        .testimonial-section .testimonial-activator .testimonial-item .card .card-header h4 {
-          font-family: "Rufina", serif;
-          font-weight: 400;
-          font-weight: 700;
-          font-size: 18px;
-          color: #000a2d;
-          margin: 0;
-          position: relative; }
-          .testimonial-section .testimonial-activator .testimonial-item .card .card-header h4:before {
-            content: "❝";
-            position: absolute;
-            top: 0;
-            left: -14px; }
-          .testimonial-section .testimonial-activator .testimonial-item .card .card-header h4:after {
-            content: "❝";
-            position: absolute;
-            top: 0;
-            right: -14px; }
-      .testimonial-section .testimonial-activator .testimonial-item .card .card-body {
-        margin-bottom: 22px; }
-        .testimonial-section .testimonial-activator .testimonial-item .card .card-body .card-text {
-          font-family: "Rubik", sans-serif;
-          font-weight: 400;
-          font-size: 14px;
-          color: #6e7797;
-          line-height: 26px;
-          color: #959cb4; }
-      .testimonial-section .testimonial-activator .testimonial-item .card .card-footer {
-        padding: 0;
-        border: none;
-        background: none;
-        display: flex;
-        align-items: center; }
-        .testimonial-section .testimonial-activator .testimonial-item .card .card-footer .card-footer-text {
-          margin-left: 20px; }
-          .testimonial-section .testimonial-activator .testimonial-item .card .card-footer .card-footer-text h3 {
+    .testimonial-section .testimonial-carousel .testimonial-item {
+      padding-bottom: 36px;
+      position: relative;
+      z-index: 4;
+      background: #fff; }
+      .testimonial-section .testimonial-carousel .testimonial-item .card {
+        border: 2px solid #dadceb;
+        padding: 46px 36px; }
+        .testimonial-section .testimonial-carousel .testimonial-item .card:before {
+          content: "";
+          position: absolute;
+          bottom: -6%;
+          left: 5%;
+          height: calc(100% - 20px);
+          width: 90%;
+          border: 2px solid #dadceb;
+          opacity: .6;
+          z-index: -1; }
+        .testimonial-section .testimonial-carousel .testimonial-item .card:after {
+          content: "";
+          position: absolute;
+          bottom: -10%;
+          left: 10%;
+          height: calc(100% - 20px);
+          width: 80%;
+          border: 2px solid #dadceb;
+          opacity: .4;
+          z-index: -1; }
+        .testimonial-section .testimonial-carousel .testimonial-item .card .card-header {
+          background: none;
+          padding: 0;
+          border: 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 26px; }
+          .testimonial-section .testimonial-carousel .testimonial-item .card .card-header .card-icon {
+            margin: 0; }
+          .testimonial-section .testimonial-carousel .testimonial-item .card .card-header h4 {
             font-family: "Rufina", serif;
             font-weight: 400;
             font-weight: 700;
             font-size: 18px;
             color: #000a2d;
-            margin-bottom: 0; }
-          .testimonial-section .testimonial-activator .testimonial-item .card .card-footer .card-footer-text span {
+            margin: 0;
+            position: relative; }
+            .testimonial-section .testimonial-carousel .testimonial-item .card .card-header h4:before {
+              content: "❝";
+              position: absolute;
+              top: 0;
+              left: -14px; }
+            .testimonial-section .testimonial-carousel .testimonial-item .card .card-header h4:after {
+              content: "❝";
+              position: absolute;
+              top: 0;
+              right: -14px; }
+        .testimonial-section .testimonial-carousel .testimonial-item .card .card-body {
+          margin-bottom: 22px; }
+          .testimonial-section .testimonial-carousel .testimonial-item .card .card-body .card-text {
             font-family: "Rubik", sans-serif;
             font-weight: 400;
             font-size: 14px;
-            color: #ff3d4f;
-            line-height: 24px;
-            font-weight: 500; }
+            color: #6e7797;
+            line-height: 26px;
+            color: #959cb4; }
+        .testimonial-section .testimonial-carousel .testimonial-item .card .card-footer {
+          padding: 0;
+          border: none;
+          background: none;
+          display: flex;
+          align-items: center; }
+          .testimonial-section .testimonial-carousel .testimonial-item .card .card-footer .card-footer-text {
+            margin-left: 20px; }
+            .testimonial-section .testimonial-carousel .testimonial-item .card .card-footer .card-footer-text h3 {
+              font-family: "Rufina", serif;
+              font-weight: 400;
+              font-weight: 700;
+              font-size: 18px;
+              color: #000a2d;
+              margin-bottom: 0; }
+            .testimonial-section .testimonial-carousel .testimonial-item .card .card-footer .card-footer-text span {
+              font-family: "Rubik", sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #ff3d4f;
+              line-height: 24px;
+              font-weight: 500; }
+  .testimonial-section .testimonial-slider-control-btn {
+    position: absolute;
+    top: -25%;
+    right: 0;
+    font-size: 40px; }
+    .testimonial-section .testimonial-slider-control-btn .prev {
+      color: #dbdce9; }
+    .testimonial-section .testimonial-slider-control-btn .next {
+      color: #ff3d4f; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.news-section {
+  padding: 120px 0;
+  background: #f6f5ff; }
+  .news-section .section-title {
+    margin-bottom: 60px; }
+    .news-section .section-title h6 {
+      font-family: "Rubik", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: #ff3d4f;
+      line-height: 24px;
+      margin-bottom: 30px; }
+    .news-section .section-title h2 {
+      font-family: "Rufina", serif;
+      font-weight: 400;
+      font-size: 70px;
+      line-height: 90px;
+      color: #000a2d;
+      font-weight: 700; }
+  .news-section .card {
+    border: none;
+    background: none; }
 
 .container {
   max-width: 1170px;

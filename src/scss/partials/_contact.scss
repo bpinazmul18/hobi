@@ -61,4 +61,14 @@
       width: auto;
     }
   }
+  .leaflet-popup-content-wrapper {
+    @include paragraph-primary;
+    h3 {
+      @include heading-three;
+      margin-bottom: 10px;
+    }
+    p {
+      @include paragraph-primary;
+    }
+  }
 }

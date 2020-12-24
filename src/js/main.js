@@ -18,13 +18,31 @@
     $('.counter').countUp();
 
     //OWL CAROUSEL
-    $('.testimonial-activator').owlCarousel({
-        autoplay: true,
-        loop:true,
-        margin:15,
-        nav:false,
-        dots: true,
-    })
+    $('.testimonial-carousel').each(function () {
+        var owl = $(this).owlCarousel({
+            autoplay: true,
+            loop:true,
+            margin:15,
+            nav:false,
+            dots: true,
+        });
+
+        var prevBtnId = $(this).data('prev-btn-id');
+        var nextBtnId = $(this).data('next-btn-id');
+
+        $('#'+prevBtnId).click(function(e) {
+            e.preventDefault();
+            owl.trigger('prev.owl.carousel');
+        })
+
+        $('#'+nextBtnId).click(function(e) {
+            e.preventDefault();
+            owl.trigger('next.owl.carousel');
+        })
+    });
+
+    //OWL CAROUSEL BTN CONTROL
+    $('.pre')
 
 })(jQuery);
 //ANIMATED PROGRESS BAR
@@ -55,10 +73,10 @@ function myMaps() {
         iconSize: [100, 80],
     });
     var marker = L.marker(location, {icon: markerIcon}).addTo(mapInit);
-    marker.bindPopup("<h3>Adrress:</h3> <p>450 Strand, Charing Cross, London WC2R 0RG, UK </p><h3>Phone:</h3>+44 20 7930 8205  ||  +44 20 7839 2323").openPopup();
+    marker.bindPopup("<h3>Adrress:</h3> <p>450 Strand, Charing Cross, London WC2R 0RG, UK </p><h3>Phone:</h3>+44 20 7930 8205  ||  +44 20 7839 2323");
 
     L.tileLayer('https://api.mapbox.com/styles/v1/devnazmul20/ckj2jxo0k065619pbedx62e5r/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZGV2bmF6bXVsMjAiLCJhIjoiY2tqMmRob29jMDJmZzJzazNpanVuZnk5ZiJ9.mywcRlchbp6szcofExXdtA', {
-        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        attribution: 'Hobi &copy; <a href="https://www.openstreetmap.org/copyright"></a>',
         maxZoom: 18,
         id: 'mapbox/streets-v11',
         tileSize: 512,
