@@ -54,4 +54,11 @@
       }
     }
   }
+  .location-wrapper {
+    height: 100%;
+    .map-init {
+      height: 100%;
+      width: auto;
+    }
+  }
 }

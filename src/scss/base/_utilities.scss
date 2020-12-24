@@ -84,3 +84,19 @@
   color: $label-color;
 }
 
+
+//COUNTER SPAN STYLE
+@mixin counter-text {
+  @include heading-primary-font;
+  font-weight: $font-weight-light;
+  font-size: 60px;
+  color: $counter-text-color;
+}
+
+@mixin span-title {
+  @include heading-primary-font;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 34px;
+  color: $span-title-color;
+}

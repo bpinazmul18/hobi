@@ -1,5 +1,6 @@
 $primary-font: 'Rubik', sans-serif;
 $secondary-font: 'Rufina', serif;
+$font-weight-light: 300;
 $font-weight-regular: 400;
 $font-weight-medium: 500;
 $font-weight-semibold: 600;
@@ -84,4 +85,8 @@ $input-border-color: #dadceb;
 $input-placeholder-color: #6e7797;
 $label-color: #000a2d;
 $label-span-color: #ff3d4f;
+
+//COUNTER TEXT COLOR
+$counter-text-color: $label-color;
+$span-title-color: #959cb4;
 

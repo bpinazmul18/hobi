@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/vendors/owl-carousel/owl.theme.default.min.css">
     <!-- VENDORS CSS -->
     <link rel="stylesheet" href="css/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vendors/leaflet.css">
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -525,7 +526,66 @@
             </div>
             <div class="col-md-6">
                 <div class="location-wrapper">
-                    <img src="img/location.jpg" alt="">
+                    <div class="map-init" id="map"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- COUNTER SECTION -->
+<section class="counter-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="counter-item">
+                    <div class="counter-icon">
+                        <img src="img/mans-icon.png" alt="">
+                    </div>
+                    <div class="counter-text">
+                        <span class="counter">789</span>
+                    </div>
+                    <div class="counter-footer">
+                        <h5>Happy Clients</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="counter-item">
+                    <div class="counter-icon">
+                        <img src="img/rocket-icon.png" alt="">
+                    </div>
+                    <div class="counter-text">
+                        <span class="counter">495</span>
+                    </div>
+                    <div class="counter-footer">
+                        <h5>Project Done</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="counter-item">
+                    <div class="counter-icon">
+                        <img src="img/cup-icon.png" alt="">
+                    </div>
+                    <div class="counter-text">
+                        <span class="counter">789</span>
+                    </div>
+                    <div class="counter-footer">
+                        <h5>Cup of Tea</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="counter-item">
+                    <div class="counter-icon">
+                        <img src="img/trophy-icon.png" alt="">
+                    </div>
+                    <div class="counter-text">
+                        <span class="counter">78</span>
+                    </div>
+                    <div class="counter-footer">
+                        <h5>Awards</h5>
+                    </div>
                 </div>
             </div>
         </div>
@@ -535,6 +595,9 @@
     <script src="js/vendors/popper.min.js"></script>
     <script src="js/vendors/bootstrap.min.js"></script>
     <script src="js/vendors/isotope.pkgd.min.js"></script>
+    <script src="js/vendors/leaflet.js"></script>
+    <script src="js/vendors/waypoints.min.js"></script>
+    <script src="js/vendors/jquery.countup.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
