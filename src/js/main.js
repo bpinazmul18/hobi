@@ -1,6 +1,18 @@
 (function($) {
     "use strict";
     // your code here
+    //HAMBURGER MENU
+    document.addEventListener(
+        "DOMContentLoaded", () => {
+            new Mmenu( "#menu",{
+                extensions: ["border-full"]
+            });
+        }
+    );
+    //SLIDER-BG
+    $("[data-background]").each(function (){
+        $(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
+    });
     //MAGNIFIC POPUP
     $('.play-btn').magnificPopup({
         disableOn: 700,

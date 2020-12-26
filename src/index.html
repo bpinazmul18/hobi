@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/vendors/owl-carousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/vendors/magnific-popup.css">
     <link rel="stylesheet" href="css/vendors/leaflet.css">
+    <link rel="stylesheet" href="css/vendors/mmenu.css">
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -50,33 +51,64 @@
                     <div class="nav-btn">
                         <button class="download-cv-btn" type="button">Download CV</button>
                         <button class="toggler-btn-right" type="button">
-                            <img src="img/toggler-btn-right-icon.png" alt="Toggler Menu">
+                            <a href="javascript:void(0)" onclick="openNav()"><img src="img/toggler-btn-right-icon.png" alt="Toggler Menu"></a>
                         </button>
                     </div>
                 </div>
+                <div class="hamburger-menu">
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" onclick="closeNav()" class="closebtn">×</a>
+                        <div class="overlay-content">
+                            <ul>
+                                <li class="nav-item"><a onclick="closeNav()" class="nav-link" href="#">home</a></li>
+                                <li class="nav-item"><a onclick="closeNav()" class="nav-link active" href="#">about</a></li>
+                                <li class="nav-item"><a onclick="closeNav()" class="nav-link" href="#">skills</a></li>
+                                <li class="nav-item"><a onclick="closeNav()" class="nav-link" href="#">services</a></li>
+                                <li class="nav-item"><a onclick="closeNav()" class="nav-link" href="#">portfolio</a></li>
+                                <li class="nav-item"><a onclick="closeNav()" class="nav-link" href="#">team</a></li>
+                                <li class="nav-item"><a onclick="closeNav()" class="nav-link" href="#">blog</a></li>
+                                <li class="nav-item"><a onclick="closeNav()" class="nav-link" href="#">contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+<!--                <div class="hamburger-menu">-->
+<!--                    -->
+<!--                    <ul>-->
+<!--                        <li class="nav-item"><a class="nav-link" href="#">home</a></li>-->
+<!--                        <li class="nav-item"><a class="nav-link active" href="#">about</a></li>-->
+<!--                        <li class="nav-item"><a class="nav-link" href="#">skills</a></li>-->
+<!--                        <li class="nav-item"><a class="nav-link" href="#">services</a></li>-->
+<!--                        <li class="nav-item"><a class="nav-link" href="#">portfolio</a></li>-->
+<!--                        <li class="nav-item"><a class="nav-link" href="#">team</a></li>-->
+<!--                        <li class="nav-item"><a class="nav-link" href="#">blog</a></li>-->
+<!--                        <li class="nav-item"><a class="nav-link" href="#">contact</a></li>-->
+<!--                    </ul>-->
+<!--                </div>-->
             </nav>
         </div>
     </div>
 </header>
 <!-- BANNER-SECTION -->
 <section class="banner-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-7">
-                <div class="banner-text-box">
-                    <h5>Get Every Single Solutions.</h5>
-                    <h1>I’m Designer Haris D. Adison</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm  tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <div class="banner-text-btn">
-                        <a class="learn-more-btn" role="button">learn more</a>
-                        <a href="https://www.youtube.com/embed/WWXm39leYew" class="play-btn" role="button"><img class="play-icon" src="img/play-btn.png" alt="">play video</a>
+    <div class="slider-active">
+        <div class="single-slider-item d-flex align-items-center justify-content-center" data-background="img/slider-img-1.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="banner-text-box">
+                            <h5>Get Every Single Solutions.</h5>
+                            <h1>I’m Designer Haris D. Adison</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm  tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="banner-text-btn">
+                                <a class="learn-more-btn" role="button">learn more</a>
+                                <a href="https://www.youtube.com/watch?v=7-sohNdOT4o" class="play-btn" role="button"><img class="play-icon" src="img/play-btn.png" alt="">play video</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="banner-right-img">
-        <img src="img/banner-img1.png" alt="">
     </div>
 </section>
 <!-- ABOUT-SECTION -->
@@ -834,8 +866,8 @@
                         <div class="col-md-4">
                             <div class="contact-us-info">
                                 <span>make call</span>
-                                <p><a href="#">+864 78558 68575</a></p>
-                                <p><a href="#">+(786) 7537 7658 89 0</a></p>
+                                <p>+864 78558 68575</p>
+                                <p>+(786) 7537 7658 89 0</p>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -854,6 +886,7 @@
     <script src="js/vendors/jquery-3.5.1.min.js"></script>
     <script src="js/vendors/popper.min.js"></script>
     <script src="js/vendors/bootstrap.min.js"></script>
+    <script src="js/vendors/mmenu.js"></script>
     <script src="js/vendors/jquery.magnific-popup.min.js"></script>
     <script src="js/vendors/leaflet.js"></script>
     <script src="js/vendors/waypoints.min.js"></script>

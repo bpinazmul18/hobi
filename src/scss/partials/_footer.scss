@@ -34,6 +34,7 @@
       }
       p {
         margin-bottom: 0;
+        @include footer-links-style;
         a {
           @include footer-links-style;
         }

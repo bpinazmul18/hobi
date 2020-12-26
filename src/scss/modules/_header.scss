@@ -1,0 +1,23 @@
+@import "../variables";
+
+.header-section {
+  position: relative;
+  .hamburger-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 40%;
+    background: #999999;
+    z-index: 999;
+    .overlay-content {
+      ul {
+        li {
+          a {
+
+          }
+        }
+      }
+    }
+  }
+}

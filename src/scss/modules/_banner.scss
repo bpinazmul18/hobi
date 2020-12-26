@@ -3,81 +3,57 @@
 @import "../mixins/mixins";
 .banner-section {
   background: $secondary-bg-color;
-  overflow: hidden;
-  position: relative;
-  .banner-right-img {
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-    padding-top: 20px;
-    padding-right: 50px;
-    padding-left: 20px;
-    width: 45%;
-
-    img {
-      width: 100%;
-      height: 100%;
-    }
-  }
-  .banner-text-box {
-    padding: 220px 0;
-
-    h5 {
-      @include heading-primary-font;
-      color: $heading-five-color;
-      font-size: 20px;
-      margin-bottom: 40px;
-    }
-    h1 {
-      @include heading-secondary-font;
-      color: $heading-one-color;
-      font-size: 90px;
-      line-height: 100px;
-      margin-bottom: 14px;
-    }
-    p {
-      @include heading-primary-font;
-      font-size: 20px;
-      line-height: 30px;
-      color: $para-color;
-      margin-bottom: 34px;
-    }
-    .banner-text-btn {
-      .learn-more-btn {
-        @include btn;
-        text-transform: uppercase;
-        transition: 0.3s;
-        background: $btn-primary-bg-color;
-        padding: 20px 56px;
-        margin-right: 10px;
-        &:hover {
-          @include btn-hover;
-        }
+  .single-slider-item {
+    min-height: 840px;
+    .banner-text-box {
+      h5 {
+        @include heading-primary-font;
+        color: $heading-five-color;
+        font-size: 20px;
+        margin-bottom: 40px;
       }
-      .play-btn {
-        @include btn;
-        text-transform: uppercase;
-        transition: 0.3s;
-        margin-left: 10px;
-        color: $btn-outline-text-color;
-        & .play-icon {
-          border-radius: 50%;
-          background: $play-btn-bg-color;
-          padding: 22px;
-          box-shadow: 0px 8px 16px 0px rgba(255, 194, 200, 0.3);
-          display: inline-block;
-          margin-right: 20px;
+      h1 {
+        @include heading-secondary-font;
+        color: $heading-one-color;
+        font-size: 90px;
+        line-height: 100px;
+        margin-bottom: 14px;
+      }
+      p {
+        @include heading-primary-font;
+        font-size: 20px;
+        line-height: 30px;
+        color: $para-color;
+        margin-bottom: 34px;
+      }
+      .banner-text-btn {
+        .learn-more-btn {
+          @include btn;
+          text-transform: uppercase;
+          transition: 0.3s;
+          background: $btn-primary-bg-color;
+          padding: 20px 56px;
+          margin-right: 10px;
+          &:hover {
+            @include btn-hover;
+          }
+        }
+        .play-btn {
+          @include btn;
+          text-transform: uppercase;
+          transition: 0.3s;
+          margin-left: 10px;
+          color: $btn-outline-text-color;
+          & .play-icon {
+            border-radius: 50%;
+            background: $play-btn-bg-color;
+            padding: 22px;
+            box-shadow: 0px 8px 16px 0px rgba(255, 194, 200, 0.3);
+            display: inline-block;
+            margin-right: 20px;
+          }
         }
       }
     }
   }
-  //.banner-img-wrapper {
-  //  width: auto;
-  //  img {
-  //    position: absolute;
-  //    bottom: 0;
-  //    right: 0;
-  //  }
-  //}
 }

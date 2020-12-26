@@ -764,6 +764,17 @@
   max-width: 1170px;
   margin: 0 auto; }
 
+.header-section {
+  position: relative; }
+  .header-section .hamburger-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 40%;
+    background: #999999;
+    z-index: 999; }
+
 .container {
   max-width: 1170px;
   margin: 0 auto; }
@@ -788,44 +799,30 @@
           color: #ff3d4f; }
 
 .banner-section {
-  background: #f6f5ff;
-  overflow: hidden;
-  position: relative; }
-  .banner-section .banner-right-img {
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-    padding-top: 20px;
-    padding-right: 50px;
-    padding-left: 20px;
-    width: 45%; }
-    .banner-section .banner-right-img img {
-      width: 100%;
-      height: 100%; }
-  .banner-section .banner-text-box {
-    padding: 220px 0; }
-    .banner-section .banner-text-box h5 {
+  background: #f6f5ff; }
+  .banner-section .single-slider-item {
+    min-height: 840px; }
+    .banner-section .single-slider-item .banner-text-box h5 {
       font-family: "Rubik", sans-serif;
       font-weight: 400;
       color: #ff3d4f;
       font-size: 20px;
       margin-bottom: 40px; }
-    .banner-section .banner-text-box h1 {
+    .banner-section .single-slider-item .banner-text-box h1 {
       font-family: "Rufina", serif;
       font-weight: 400;
       color: #000a2d;
       font-size: 90px;
       line-height: 100px;
       margin-bottom: 14px; }
-    .banner-section .banner-text-box p {
+    .banner-section .single-slider-item .banner-text-box p {
       font-family: "Rubik", sans-serif;
       font-weight: 400;
       font-size: 20px;
       line-height: 30px;
       color: #6e7797;
       margin-bottom: 34px; }
-    .banner-section .banner-text-box .banner-text-btn .learn-more-btn {
+    .banner-section .single-slider-item .banner-text-box .banner-text-btn .learn-more-btn {
       font-family: "Rubik", sans-serif;
       font-weight: 500;
       font-size: 14px;
@@ -838,9 +835,9 @@
       background: #ff3d4f;
       padding: 20px 56px;
       margin-right: 10px; }
-      .banner-section .banner-text-box .banner-text-btn .learn-more-btn:hover {
+      .banner-section .single-slider-item .banner-text-box .banner-text-btn .learn-more-btn:hover {
         background: #79819e; }
-    .banner-section .banner-text-box .banner-text-btn .play-btn {
+    .banner-section .single-slider-item .banner-text-box .banner-text-btn .play-btn {
       font-family: "Rubik", sans-serif;
       font-weight: 500;
       font-size: 14px;
@@ -852,7 +849,7 @@
       transition: 0.3s;
       margin-left: 10px;
       color: #ff3d4f; }
-      .banner-section .banner-text-box .banner-text-btn .play-btn .play-icon {
+      .banner-section .single-slider-item .banner-text-box .banner-text-btn .play-btn .play-icon {
         border-radius: 50%;
         background: #fff7fa;
         padding: 22px;
@@ -1107,7 +1104,8 @@
     padding: 0;
     margin: 0; }
     .news-section .card .card-body {
-      padding: 40px;
+      padding: 30px;
+      padding-bottom: 20px;
       background: #ffffff; }
       .news-section .card .card-body .post-info {
         margin-bottom: 20px; }
@@ -1149,6 +1147,17 @@
   max-width: 1170px;
   margin: 0 auto; }
 
+.header-section {
+  position: relative; }
+  .header-section .hamburger-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 40%;
+    background: #999999;
+    z-index: 999; }
+
 .container {
   max-width: 1170px;
   margin: 0 auto; }
@@ -1173,44 +1182,30 @@
           color: #ff3d4f; }
 
 .banner-section {
-  background: #f6f5ff;
-  overflow: hidden;
-  position: relative; }
-  .banner-section .banner-right-img {
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-    padding-top: 20px;
-    padding-right: 50px;
-    padding-left: 20px;
-    width: 45%; }
-    .banner-section .banner-right-img img {
-      width: 100%;
-      height: 100%; }
-  .banner-section .banner-text-box {
-    padding: 220px 0; }
-    .banner-section .banner-text-box h5 {
+  background: #f6f5ff; }
+  .banner-section .single-slider-item {
+    min-height: 840px; }
+    .banner-section .single-slider-item .banner-text-box h5 {
       font-family: "Rubik", sans-serif;
       font-weight: 400;
       color: #ff3d4f;
       font-size: 20px;
       margin-bottom: 40px; }
-    .banner-section .banner-text-box h1 {
+    .banner-section .single-slider-item .banner-text-box h1 {
       font-family: "Rufina", serif;
       font-weight: 400;
       color: #000a2d;
       font-size: 90px;
       line-height: 100px;
       margin-bottom: 14px; }
-    .banner-section .banner-text-box p {
+    .banner-section .single-slider-item .banner-text-box p {
       font-family: "Rubik", sans-serif;
       font-weight: 400;
       font-size: 20px;
       line-height: 30px;
       color: #6e7797;
       margin-bottom: 34px; }
-    .banner-section .banner-text-box .banner-text-btn .learn-more-btn {
+    .banner-section .single-slider-item .banner-text-box .banner-text-btn .learn-more-btn {
       font-family: "Rubik", sans-serif;
       font-weight: 500;
       font-size: 14px;
@@ -1223,9 +1218,9 @@
       background: #ff3d4f;
       padding: 20px 56px;
       margin-right: 10px; }
-      .banner-section .banner-text-box .banner-text-btn .learn-more-btn:hover {
+      .banner-section .single-slider-item .banner-text-box .banner-text-btn .learn-more-btn:hover {
         background: #79819e; }
-    .banner-section .banner-text-box .banner-text-btn .play-btn {
+    .banner-section .single-slider-item .banner-text-box .banner-text-btn .play-btn {
       font-family: "Rubik", sans-serif;
       font-weight: 500;
       font-size: 14px;
@@ -1237,7 +1232,7 @@
       transition: 0.3s;
       margin-left: 10px;
       color: #ff3d4f; }
-      .banner-section .banner-text-box .banner-text-btn .play-btn .play-icon {
+      .banner-section .single-slider-item .banner-text-box .banner-text-btn .play-btn .play-icon {
         border-radius: 50%;
         background: #fff7fa;
         padding: 22px;
@@ -1350,7 +1345,14 @@
     color: #afb5c9;
     text-transform: uppercase; }
   .footer-section .footer-widget .contact-us-info p {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-family: "Rufina", serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0; }
     .footer-section .footer-widget .contact-us-info p a {
       font-family: "Rufina", serif;
       font-weight: 700;
@@ -1359,6 +1361,17 @@
       color: #fff;
       text-decoration: none;
       margin: 0; }
+
+.header-section {
+  position: relative; }
+  .header-section .hamburger-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 40%;
+    background: #999999;
+    z-index: 999; }
 
 .container {
   max-width: 1170px;
@@ -1384,44 +1397,30 @@
           color: #ff3d4f; }
 
 .banner-section {
-  background: #f6f5ff;
-  overflow: hidden;
-  position: relative; }
-  .banner-section .banner-right-img {
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-    padding-top: 20px;
-    padding-right: 50px;
-    padding-left: 20px;
-    width: 45%; }
-    .banner-section .banner-right-img img {
-      width: 100%;
-      height: 100%; }
-  .banner-section .banner-text-box {
-    padding: 220px 0; }
-    .banner-section .banner-text-box h5 {
+  background: #f6f5ff; }
+  .banner-section .single-slider-item {
+    min-height: 840px; }
+    .banner-section .single-slider-item .banner-text-box h5 {
       font-family: "Rubik", sans-serif;
       font-weight: 400;
       color: #ff3d4f;
       font-size: 20px;
       margin-bottom: 40px; }
-    .banner-section .banner-text-box h1 {
+    .banner-section .single-slider-item .banner-text-box h1 {
       font-family: "Rufina", serif;
       font-weight: 400;
       color: #000a2d;
       font-size: 90px;
       line-height: 100px;
       margin-bottom: 14px; }
-    .banner-section .banner-text-box p {
+    .banner-section .single-slider-item .banner-text-box p {
       font-family: "Rubik", sans-serif;
       font-weight: 400;
       font-size: 20px;
       line-height: 30px;
       color: #6e7797;
       margin-bottom: 34px; }
-    .banner-section .banner-text-box .banner-text-btn .learn-more-btn {
+    .banner-section .single-slider-item .banner-text-box .banner-text-btn .learn-more-btn {
       font-family: "Rubik", sans-serif;
       font-weight: 500;
       font-size: 14px;
@@ -1434,9 +1433,9 @@
       background: #ff3d4f;
       padding: 20px 56px;
       margin-right: 10px; }
-      .banner-section .banner-text-box .banner-text-btn .learn-more-btn:hover {
+      .banner-section .single-slider-item .banner-text-box .banner-text-btn .learn-more-btn:hover {
         background: #79819e; }
-    .banner-section .banner-text-box .banner-text-btn .play-btn {
+    .banner-section .single-slider-item .banner-text-box .banner-text-btn .play-btn {
       font-family: "Rubik", sans-serif;
       font-weight: 500;
       font-size: 14px;
@@ -1448,7 +1447,7 @@
       transition: 0.3s;
       margin-left: 10px;
       color: #ff3d4f; }
-      .banner-section .banner-text-box .banner-text-btn .play-btn .play-icon {
+      .banner-section .single-slider-item .banner-text-box .banner-text-btn .play-btn .play-icon {
         border-radius: 50%;
         background: #fff7fa;
         padding: 22px;
