@@ -57,7 +57,7 @@
     });
     var togglerBtn = $('.toggler-btn-right');
     var hamburgerMenu = $('.hamburger-menu');
-    var closeBtn = $('.hamburger-menu.active', '.closebtn');
+    var closeBtn = $('.hamburger-menu, .closebtn, .nav-link');
     var toggleBtnSelector = $("#myNav");
 
     togglerBtn.click(function (e){

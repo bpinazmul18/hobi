@@ -3,6 +3,7 @@
 .header-section {
   position: relative;
   .hamburger-menu {
+    transition: .3s;
     .overlay {
       position: fixed;
       top: 0;
@@ -12,15 +13,14 @@
       background: rgba($theme-color-dark, 0.9);
       z-index: 999;
       transition: 0.3s;
-      &>a {
-        display: inline-block;
-        font-size: 40px;
-        padding-left: 20px;
-        text-decoration: none;
+      &>.closebtn {
         color: $text-white-color;
+        padding: 30px;
+        font-size: 20px;
+        cursor: pointer;
       }
       .overlay-content {
-        padding: 50px;
+        padding-left: 20px;
         ul {
           margin: 0;
           padding: 0;
@@ -37,6 +37,19 @@
           }
         }
       }
+    }
+
+    &.active {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: auto;
+      bottom: 0;
+      background: #000000ab;
+      z-index: 2;
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
     }
   }
 }

@@ -4,8 +4,12 @@
 .banner-section {
   background: $secondary-bg-color;
   .single-slider-item {
-    min-height: 840px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center right;
     .banner-text-box {
+      padding: 220px 0;
       h5 {
         @include heading-primary-font;
         color: $heading-five-color;
