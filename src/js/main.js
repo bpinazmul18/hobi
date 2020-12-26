@@ -1,6 +1,17 @@
 (function($) {
     "use strict";
     // your code here
+    //MAGNIFIC POPUP
+    $('.play-btn').magnificPopup({
+        disableOn: 700,
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+
+        fixedContentPos: false
+    });
+
     //ANIMATED PROGRESS BAR
     animate();
 

@@ -294,64 +294,145 @@
   max-width: 1170px;
   margin: 0 auto; }
 
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.social-icons ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+  .social-icons ul li {
+    display: inline-block;
+    margin-right: 12px; }
+    .social-icons ul li a {
+      margin-bottom: 0 !important;
+      display: block; }
+      .social-icons ul li a i {
+        color: #a4acc9; }
+        .social-icons ul li a i:hover {
+          color: #ff3d4f; }
+
 .experience-section {
-  padding: 120px 0;
-  background: #f6f5ff; }
-  .experience-section .section-title {
-    margin-bottom: 60px; }
-    .experience-section .section-title h6 {
+  padding: 120px 0; }
+  .experience-section .call-to-action {
+    padding: 120px 0;
+    background: #000a2d; }
+    .experience-section .call-to-action .section-title {
+      margin: 0; }
+      .experience-section .call-to-action .section-title h6 {
+        font-family: "Rubik", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #ff3d4f;
+        line-height: 24px; }
+      .experience-section .call-to-action .section-title h2 {
+        font-family: "Rufina", serif;
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 90px;
+        color: #000a2d;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 70px;
+        color: #fff; }
+    .experience-section .call-to-action .experience-btn .btn-primary {
       font-family: "Rubik", sans-serif;
-      font-weight: 400;
+      font-weight: 500;
       font-size: 14px;
-      color: #ff3d4f;
-      line-height: 24px;
-      margin-bottom: 20px; }
-    .experience-section .section-title h2 {
-      font-family: "Rufina", serif;
-      font-weight: 400;
-      font-size: 70px;
-      line-height: 90px;
-      color: #000a2d;
-      font-weight: 700; }
-  .experience-section .card {
-    margin: 12px 0;
-    border: 0;
-    padding: 40px;
-    background: #ffffff; }
-    .experience-section .card .card-header {
-      padding: 0;
-      border-radius: 0;
-      background: none;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      border: none;
-      margin-bottom: 30px; }
-      .experience-section .card .card-header .card-icon {
-        margin: 0;
-        height: 80px;
-        width: 80px;
-        background: #fff2f3;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 30px; }
-      .experience-section .card .card-header .card-title h6 {
+      color: #fff;
+      border-radius: 32px;
+      text-decoration: none;
+      display: inline-block;
+      background: #ff3d4f;
+      border: 0;
+      outline: none;
+      padding: 20px 48px;
+      margin-right: 10px;
+      transition: 0.3s; }
+      .experience-section .call-to-action .experience-btn .btn-primary i {
+        margin-right: 6px; }
+      .experience-section .call-to-action .experience-btn .btn-primary:hover {
+        background: #79819e; }
+    .experience-section .call-to-action .experience-btn .btn-outline {
+      font-family: "Rubik", sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      color: #fff;
+      border-radius: 32px;
+      text-decoration: none;
+      display: inline-block;
+      background: transparent;
+      color: #79819e;
+      border: 2px solid #79819e;
+      padding: 20px 48px;
+      background: transparent;
+      margin-left: 10px;
+      color: #fff;
+      transition: 0.3s; }
+      .experience-section .call-to-action .experience-btn .btn-outline i {
+        margin-right: 6px; }
+      .experience-section .call-to-action .experience-btn .btn-outline:hover {
+        background: #ff3d4f;
+        border-color: transparent;
+        color: #fff; }
+  .experience-section .experience-area {
+    background: #f6f5ff; }
+    .experience-section .experience-area .section-title {
+      margin-bottom: 60px; }
+      .experience-section .experience-area .section-title h6 {
         font-family: "Rubik", sans-serif;
         font-weight: 400;
         font-size: 14px;
         color: #ff3d4f;
         line-height: 24px;
-        line-height: 16px; }
-      .experience-section .card .card-header .card-title h4 {
+        margin-bottom: 20px; }
+      .experience-section .experience-area .section-title h2 {
         font-family: "Rufina", serif;
         font-weight: 400;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 26px;
+        font-size: 70px;
+        line-height: 90px;
         color: #000a2d;
-        font-size: 26px;
-        line-height: 24px; }
+        font-weight: 700; }
+    .experience-section .experience-area .card {
+      margin: 12px 0;
+      border: 0;
+      padding: 40px;
+      background: #ffffff; }
+      .experience-section .experience-area .card .card-header {
+        padding: 0;
+        border-radius: 0;
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        border: none;
+        margin-bottom: 30px; }
+        .experience-section .experience-area .card .card-header .card-icon {
+          margin: 0;
+          height: 80px;
+          width: 80px;
+          background: #fff2f3;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 30px; }
+        .experience-section .experience-area .card .card-header .card-title h6 {
+          font-family: "Rubik", sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          color: #ff3d4f;
+          line-height: 24px;
+          line-height: 16px; }
+        .experience-section .experience-area .card .card-header .card-title h4 {
+          font-family: "Rufina", serif;
+          font-weight: 400;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 26px;
+          color: #000a2d;
+          font-size: 26px;
+          line-height: 24px; }
 
 .container {
   max-width: 1170px;
