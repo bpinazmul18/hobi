@@ -3,18 +3,37 @@
 .header-section {
   position: relative;
   .hamburger-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 40%;
-    background: #999999;
-    z-index: 999;
-    .overlay-content {
-      ul {
-        li {
-          a {
-
+    .overlay {
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: 100vh;
+      width: 0;
+      background: rgba($theme-color-dark, 0.9);
+      z-index: 999;
+      transition: 0.3s;
+      &>a {
+        display: inline-block;
+        font-size: 40px;
+        padding-left: 20px;
+        text-decoration: none;
+        color: $text-white-color;
+      }
+      .overlay-content {
+        padding: 50px;
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+          li {
+            a {
+              color: $text-white-color;
+              text-transform: capitalize;
+              transition: 0.3s;
+              &:hover {
+                background: $theme-color-dark;
+              }
+            }
           }
         }
       }

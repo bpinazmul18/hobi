@@ -231,8 +231,7 @@
 
 .portfolio-section {
   padding: 120px 0;
-  background: #ffffff;
-  display: none; }
+  background: #ffffff; }
   .portfolio-section .portfolio-section-heading h6 {
     font-family: "Rubik", sans-serif;
     font-weight: 400;
@@ -766,14 +765,33 @@
 
 .header-section {
   position: relative; }
-  .header-section .hamburger-menu {
+  .header-section .hamburger-menu .overlay {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     height: 100vh;
-    width: 40%;
-    background: #999999;
-    z-index: 999; }
+    width: 0;
+    background: rgba(0, 10, 45, 0.9);
+    z-index: 999;
+    transition: 0.3s; }
+    .header-section .hamburger-menu .overlay > a {
+      display: inline-block;
+      font-size: 40px;
+      padding-left: 20px;
+      text-decoration: none;
+      color: #fff; }
+    .header-section .hamburger-menu .overlay .overlay-content {
+      padding: 50px; }
+      .header-section .hamburger-menu .overlay .overlay-content ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none; }
+        .header-section .hamburger-menu .overlay .overlay-content ul li a {
+          color: #fff;
+          text-transform: capitalize;
+          transition: 0.3s; }
+          .header-section .hamburger-menu .overlay .overlay-content ul li a:hover {
+            background: #000a2d; }
 
 .container {
   max-width: 1170px;
@@ -1149,14 +1167,33 @@
 
 .header-section {
   position: relative; }
-  .header-section .hamburger-menu {
+  .header-section .hamburger-menu .overlay {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     height: 100vh;
-    width: 40%;
-    background: #999999;
-    z-index: 999; }
+    width: 0;
+    background: rgba(0, 10, 45, 0.9);
+    z-index: 999;
+    transition: 0.3s; }
+    .header-section .hamburger-menu .overlay > a {
+      display: inline-block;
+      font-size: 40px;
+      padding-left: 20px;
+      text-decoration: none;
+      color: #fff; }
+    .header-section .hamburger-menu .overlay .overlay-content {
+      padding: 50px; }
+      .header-section .hamburger-menu .overlay .overlay-content ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none; }
+        .header-section .hamburger-menu .overlay .overlay-content ul li a {
+          color: #fff;
+          text-transform: capitalize;
+          transition: 0.3s; }
+          .header-section .hamburger-menu .overlay .overlay-content ul li a:hover {
+            background: #000a2d; }
 
 .container {
   max-width: 1170px;
@@ -1364,14 +1401,33 @@
 
 .header-section {
   position: relative; }
-  .header-section .hamburger-menu {
+  .header-section .hamburger-menu .overlay {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     height: 100vh;
-    width: 40%;
-    background: #999999;
-    z-index: 999; }
+    width: 0;
+    background: rgba(0, 10, 45, 0.9);
+    z-index: 999;
+    transition: 0.3s; }
+    .header-section .hamburger-menu .overlay > a {
+      display: inline-block;
+      font-size: 40px;
+      padding-left: 20px;
+      text-decoration: none;
+      color: #fff; }
+    .header-section .hamburger-menu .overlay .overlay-content {
+      padding: 50px; }
+      .header-section .hamburger-menu .overlay .overlay-content ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none; }
+        .header-section .hamburger-menu .overlay .overlay-content ul li a {
+          color: #fff;
+          text-transform: capitalize;
+          transition: 0.3s; }
+          .header-section .hamburger-menu .overlay .overlay-content ul li a:hover {
+            background: #000a2d; }
 
 .container {
   max-width: 1170px;

@@ -1,14 +1,6 @@
 (function($) {
     "use strict";
     // your code here
-    //HAMBURGER MENU
-    document.addEventListener(
-        "DOMContentLoaded", () => {
-            new Mmenu( "#menu",{
-                extensions: ["border-full"]
-            });
-        }
-    );
     //SLIDER-BG
     $("[data-background]").each(function (){
         $(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
@@ -63,9 +55,24 @@
             owl.trigger('next.owl.carousel');
         })
     });
+    var togglerBtn = $('.toggler-btn-right');
+    var hamburgerMenu = $('.hamburger-menu');
+    var closeBtn = $('.hamburger-menu.active', '.closebtn');
+    var toggleBtnSelector = $("#myNav");
 
-    //OWL CAROUSEL BTN CONTROL
-    $('.pre')
+    togglerBtn.click(function (e){
+        e.preventDefault();
+        toggleBtnSelector.css("width", "40%");
+    });
+    togglerBtn.click(function(e) {
+        e.preventDefault();
+        hamburgerMenu.addClass('active');
+    });
+    closeBtn.click(function(e){
+        e.preventDefault();
+        hamburgerMenu.removeClass('active');
+        toggleBtnSelector.css("width", "0%");
+    });
 
 })(jQuery);
 //ANIMATED PROGRESS BAR
