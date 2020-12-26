@@ -45,3 +45,11 @@
   @include btn-primary;
   @include lg;
 }
+
+@mixin link-btn {
+  font-family: $primary-font;
+  font-weight: $font-weight-medium;
+  font-size: 14px;
+  color: $btn-primary-bg-color;
+  text-decoration: underline;
+}

@@ -1,0 +1,43 @@
+@import "../variables";
+@import "../base/base";
+@import "../modules/modules";
+.footer-section {
+  padding: 120px 0;
+  background: $theme-color-dark;
+  .footer-widget {
+    a {
+      display: inline-block;
+      margin-bottom: 25px;
+      .footer-logo {
+        display: block;
+      }
+    }
+    .text-para {
+      @include paragraph-primary;
+      margin-bottom: 26px;
+    }
+    h2 {
+      @include heading-two;
+      font-size: 40px;
+      line-height: 50px;
+      color: $text-white-color;
+      margin-bottom: 40px;
+    }
+    .contact-us-info {
+      span {
+        font-family: $primary-font;
+        font-weight: $font-weight-medium;
+        font-size: 14px;
+        line-height: 50px;
+        color: $text-muted-color;
+        text-transform: uppercase;
+      }
+      p {
+        margin-bottom: 0;
+        a {
+          @include footer-links-style;
+        }
+      }
+    }
+  }
+}

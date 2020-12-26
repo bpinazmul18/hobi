@@ -7,6 +7,7 @@ $font-weight-semibold: 600;
 $font-weight-bold: 700;
 $primary-bg-color: #ffffff;
 $secondary-bg-color: #f6f5ff;
+$theme-color-dark: #000a2d;
 //HEADER COLOR
 $primary-header-bg-color: $primary-bg-color;
 //NAVBAR COLOR, FONT..
@@ -69,6 +70,7 @@ $call-to-action-section-bg-color: #000a2d;
 //CARD ICON BACKGROUND
 $card-icon-bg-color: #fff2f3;
 $card-bg-white: #ffffff;
+$card-text-color-red: #ff3d4f;
 
 //EDUCATION SECTION
 $education-list-border-color: #ffe7e5;
@@ -77,9 +79,11 @@ $check-icon-bg-color: #ff3d4f;
 
 //TEXT COLOR
 $text-white-color: $btn-primary-text-color;
+$text-muted-color: #afb5c9;
 
 //ICON COLOR
 $card-icon-color: #c1bfd8;
+$social-media-icon-color: #a4acc9;
 
 //CONTACT FORM DESIGN
 $input-border-color: #dadceb;

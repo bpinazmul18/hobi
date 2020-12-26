@@ -1,0 +1,16 @@
+@import "../variables";
+@mixin footer-links-style {
+  font-family: $secondary-font;
+  font-weight: $font-weight-bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: $text-white-color;
+  text-decoration: none;
+  margin: 0;
+}
+
+.contact-us-info {
+  address {
+    @include footer-links-style;
+  }
+}
