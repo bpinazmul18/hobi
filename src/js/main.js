@@ -5,6 +5,19 @@
     $("[data-background]").each(function (){
         $(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
     });
+
+    $('.slider-active').each(function () {
+        $(this).owlCarousel({
+            autoplay: false,
+            loop:true,
+            margin:15,
+            nav:false,
+            dots: false,
+            items: 1,
+        });
+    });
+
+
     //MAGNIFIC POPUP
     $('.play-btn').magnificPopup({
         disableOn: 700,
@@ -12,7 +25,6 @@
         mainClass: 'mfp-fade',
         removalDelay: 160,
         preloader: false,
-
         fixedContentPos: false
     });
 
