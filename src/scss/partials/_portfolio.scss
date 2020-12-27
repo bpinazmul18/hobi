@@ -57,8 +57,11 @@
   .grid {
     .grid-item {
       padding: 5px;
-      img {
-        width: 100%;
+      .portfolio-item {
+        padding: 10px;
+        img {
+          width: 100%;
+        }
       }
       &:nth-child(1) {
         img {

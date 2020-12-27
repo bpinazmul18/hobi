@@ -352,8 +352,10 @@
             width: 100%; }
   .portfolio-section .grid .grid-item {
     padding: 5px; }
-    .portfolio-section .grid .grid-item img {
-      width: 100%; }
+    .portfolio-section .grid .grid-item .portfolio-item {
+      padding: 10px; }
+      .portfolio-section .grid .grid-item .portfolio-item img {
+        width: 100%; }
     .portfolio-section .grid .grid-item:nth-child(1) img {
       width: 100%; }
     .portfolio-section .grid .grid-item:nth-child(2) img {
@@ -384,71 +386,106 @@
         .social-icons ul li a i:hover {
           color: #ff3d4f; }
 
-.experience-section {
-  padding: 120px 0; }
-  .experience-section .call-to-action {
-    padding: 120px 0;
-    background: #000a2d; }
-    .experience-section .call-to-action .section-title {
-      margin: 0; }
-      .experience-section .call-to-action .section-title h6 {
-        font-family: "Rubik", sans-serif;
-        font-weight: 400;
-        font-size: 14px;
-        color: #ff3d4f;
-        line-height: 24px; }
-      .experience-section .call-to-action .section-title h2 {
-        font-family: "Rufina", serif;
-        font-weight: 400;
-        font-size: 70px;
-        line-height: 90px;
-        color: #000a2d;
-        font-weight: 700;
-        font-size: 52px;
-        line-height: 70px;
-        color: #fff; }
-    .experience-section .call-to-action .experience-btn .btn-primary {
+.cta-section .cta-box {
+  position: relative;
+  padding: 120px 0;
+  margin-bottom: -210px; }
+  .cta-section .cta-box:before {
+    position: absolute;
+    content: "";
+    background: #000a2d;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: .9; }
+  .cta-section .cta-box .section-title {
+    margin: 0; }
+    .cta-section .cta-box .section-title h6 {
       font-family: "Rubik", sans-serif;
-      font-weight: 500;
+      font-weight: 400;
       font-size: 14px;
-      color: #fff;
-      border-radius: 32px;
-      text-decoration: none;
-      display: inline-block;
+      color: #ff3d4f;
+      line-height: 24px; }
+    .cta-section .cta-box .section-title h2 {
+      font-family: "Rufina", serif;
+      font-weight: 400;
+      font-size: 70px;
+      line-height: 90px;
+      color: #000a2d;
+      font-weight: 700;
+      font-size: 52px;
+      line-height: 70px;
+      color: #fff; }
+  .cta-section .cta-box .cta-right-btn .btn-primary {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 32px;
+    text-decoration: none;
+    display: inline-block;
+    background: #ff3d4f;
+    border: 0;
+    outline: none;
+    padding: 20px 48px;
+    margin-right: 10px;
+    transition: 0.3s; }
+    .cta-section .cta-box .cta-right-btn .btn-primary:hover {
+      background: #79819e; }
+    .cta-section .cta-box .cta-right-btn .btn-primary i {
+      margin-right: 6px; }
+  .cta-section .cta-box .cta-right-btn .btn-outline {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 32px;
+    text-decoration: none;
+    display: inline-block;
+    background: transparent;
+    color: #79819e;
+    border: 2px solid #79819e;
+    padding: 20px 48px;
+    background: transparent;
+    margin-left: 10px;
+    color: #fff;
+    transition: 0.3s; }
+    .cta-section .cta-box .cta-right-btn .btn-outline:hover {
       background: #ff3d4f;
-      border: 0;
-      outline: none;
-      padding: 20px 48px;
-      margin-right: 10px;
-      transition: 0.3s; }
-      .experience-section .call-to-action .experience-btn .btn-primary i {
-        margin-right: 6px; }
-      .experience-section .call-to-action .experience-btn .btn-primary:hover {
-        background: #79819e; }
-    .experience-section .call-to-action .experience-btn .btn-outline {
-      font-family: "Rubik", sans-serif;
-      font-weight: 500;
-      font-size: 14px;
-      color: #fff;
-      border-radius: 32px;
-      text-decoration: none;
-      display: inline-block;
-      background: transparent;
-      color: #79819e;
-      border: 2px solid #79819e;
-      padding: 20px 48px;
-      background: transparent;
-      margin-left: 10px;
-      color: #fff;
-      transition: 0.3s; }
-      .experience-section .call-to-action .experience-btn .btn-outline i {
-        margin-right: 6px; }
-      .experience-section .call-to-action .experience-btn .btn-outline:hover {
-        background: #ff3d4f;
-        border-color: transparent;
-        color: #fff; }
+      border-color: transparent;
+      color: #fff; }
+    .cta-section .cta-box .cta-right-btn .btn-outline i {
+      margin-right: 6px; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.social-icons ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+  .social-icons ul li {
+    display: inline-block;
+    margin-right: 12px; }
+    .social-icons ul li a {
+      margin-bottom: 0 !important;
+      display: block; }
+      .social-icons ul li a i {
+        color: #a4acc9; }
+        .social-icons ul li a i:hover {
+          color: #ff3d4f; }
+
+.experience-section {
+  padding: 120px 0;
+  background: #f6f5ff; }
   .experience-section .experience-area {
-    background: #f6f5ff; }
+    padding-top: 210px; }
     .experience-section .experience-area .section-title {
       margin-bottom: 60px; }
       .experience-section .experience-area .section-title h6 {

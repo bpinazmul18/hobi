@@ -2,13 +2,18 @@
     "use strict";
     // your code here
     // isotop
-    $('.grid').isotope({
+    var $grid = $('.grid').isotope({
         itemSelector: '.grid-item',
         percentPosition: true,
         masonry: {
             // use outer width of grid-sizer for columnWidth
             columnWidth: 1
         }
+    });
+
+    $('.filter-button-group').on( 'click', 'li', function() {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
     });
 
     //SLIDER-BG

@@ -1,0 +1,60 @@
+@import "../variables";
+@import "../base/base";
+@import "../mixins/mixins";
+.cta-section {
+  .cta-box {
+    position: relative;
+    padding: 120px 0;
+    margin-bottom: -210px;
+    &:before {
+      position: absolute;
+      content: "";
+      background: #000a2d;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      opacity: .9;
+    }
+    .section-title {
+      margin: 0;
+      h6 {
+        @include heading-six;
+      }
+      h2 {
+        @include heading-two;
+        font-size: 52px;
+        line-height: 70px;
+        color: $text-white-color;
+      }
+    }
+    .cta-right-btn {
+      .btn-primary {
+        @include btn-primary;
+        padding: 20px 48px;
+        margin-right: 10px;
+        transition: 0.3s;
+        &:hover {
+          @include btn-hover;
+        }
+        i {
+          margin-right: 6px;
+        }
+      }
+      .btn-outline {
+        @include outline-primary;
+        padding: 20px 48px;
+        background: transparent;
+        margin-left: 10px;
+        color: $text-white-color;
+        transition: 0.3s;
+        &:hover {
+          @include outline-btn-hover;
+        }
+        i {
+          margin-right: 6px;
+        }
+      }
+    }
+  }
+}
