@@ -51,6 +51,11 @@
 
           li {
             padding: 0 8px;
+            border-radius: 5px;
+            transition: 0.3s;
+            &:hover {
+              background: $primary-hover-color;
+            }
             a {
               i {
                 color: $card-icon-color;

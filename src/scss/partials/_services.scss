@@ -1,5 +1,9 @@
 @import "../variables";
+@import "../mixins/mixins";
 .services-section {
   padding: 120px 0;
   background: $primary-bg-color;
+  .card {
+    @include card;
+  }
 }

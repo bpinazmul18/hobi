@@ -1,6 +1,15 @@
 (function($) {
     "use strict";
     // your code here
+
+    $('.grid').isotope({
+        itemSelector: '.grid-item',
+        masonry: {
+            columnWidth: 100
+        }
+    });
+
+
     //SLIDER-BG
     $("[data-background]").each(function (){
         $(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
@@ -8,7 +17,7 @@
 
     $('.slider-active').each(function () {
         $(this).owlCarousel({
-            autoplay: false,
+            autoplay: true,
             loop:true,
             margin:15,
             nav:false,
@@ -47,7 +56,7 @@
     //OWL CAROUSEL
     $('.testimonial-carousel').each(function () {
         var owl = $(this).owlCarousel({
-            autoplay: true,
+            autoplay: false,
             loop:true,
             margin:15,
             nav:false,

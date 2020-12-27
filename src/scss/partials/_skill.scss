@@ -4,9 +4,11 @@
   padding: 120px 0;
   background: $secondary-bg-color;
   .img-box {
+    padding-right: 30px;
     img {
       border: 12px solid $primary-bg-color;
       box-shadow: 0px 16px 32px 0px rgba(167, 178, 219, 0.3);
+      width: 100%;
     }
   }
   .skill-content-wrapper {

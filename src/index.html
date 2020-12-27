@@ -28,7 +28,7 @@
 </head>
 <body>
 <!--HEADER-SECTION-START-->
-<header class="header-section">
+<header class="header-section" id="home">
     <div class="container">
         <div class="col-md-12">
             <nav class="navbar navbar-expand-lg">
@@ -39,8 +39,8 @@
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav m-auto">
-                        <li class="nav-item"><a class="nav-link" href="#">home</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#">about</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#home">home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#about">about</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">skills</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">services</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">portfolio</a></li>
@@ -150,7 +150,7 @@
     </div>
 </section>
 <!-- ABOUT-SECTION -->
-<section class="about-section">
+<section class="about-section" id="about">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -294,25 +294,21 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="grid">
-                <div class="col-md-8 grid-item ui-ux branding">
-                    <div class="portfolio-item">
-                        <img src="img/portfolio-img1.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-md-4 grid-item web-design">
-                    <img src="img/portfolio-img2.jpg" alt="">
-                </div>
-                <div class="col-md-4 grid-item ui-ux">
-                    <img src="img/portfolio-img2.jpg" alt="">
-                </div>
-                <div class="col-md-4 grid-item web-design branding">
-                    <img src="img/portfolio-img3.jpg" alt="">
-                </div>
-                <div class="col-md-4 grid-item ui-ux logo">
-                    <img src="img/portfolio-img3.jpg" alt="">
-                </div>
+        <div class="grid">
+            <div class="grid-item">
+                <img src="img/portfolio-img1.jpg" alt="">
+            </div>
+            <div class="grid-item grid-item--width2">
+                <img src="img/portfolio-img2.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="img/portfolio-img2.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="img/portfolio-img3.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img src="img/portfolio-img3.jpg" alt="">
             </div>
         </div>
     </div>
@@ -538,7 +534,7 @@
                 <div class="card-single-item">
                     <div class="card">
                         <div class="img-top">
-                            <img src="img/team-img1.jpg" alt="">
+                            <img src="img/team-img2.jpg" alt="">
                         </div>
                     </div>
                     <div class="card-member-title text-center">
@@ -560,7 +556,7 @@
                 <div class="card-single-item">
                     <div class="card">
                         <div class="img-top">
-                            <img src="img/team-img1.jpg" alt="">
+                            <img src="img/team-img3.jpg" alt="">
                         </div>
                     </div>
                     <div class="card-member-title text-center">
@@ -714,7 +710,7 @@
                             </div>
                             <div class="card-footer">
                                 <div class="card-footer-icon">
-                                    <img src="img/card-footer-icon.png" alt="">
+                                    <img src="img/team-img1.jpg" alt="">
                                 </div>
                                 <div class="card-footer-text">
                                     <h3>Rosalina D. William</h3>
@@ -738,7 +734,7 @@
                             </div>
                             <div class="card-footer">
                                 <div class="card-footer-icon">
-                                    <img src="img/card-footer-icon.png" alt="">
+                                    <img src="img/team-img1.jpg" alt="">
                                 </div>
                                 <div class="card-footer-text">
                                     <h3>Rosalina D. William</h3>
@@ -762,7 +758,7 @@
                             </div>
                             <div class="card-footer">
                                 <div class="card-footer-icon">
-                                    <img src="img/card-footer-icon.png" alt="">
+                                    <img src="img/team-img1.jpg" alt="">
                                 </div>
                                 <div class="card-footer-text">
                                     <h3>Rosalina D. William</h3>
@@ -930,6 +926,7 @@
     <script src="js/vendors/waypoints.min.js"></script>
     <script src="js/vendors/jquery.countup.min.js"></script>
     <script src="js/vendors/owl.carousel.min.js"></script>
+    <script src="js/vendors/isotope.pkgd.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
