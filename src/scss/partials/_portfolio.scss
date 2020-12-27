@@ -56,21 +56,21 @@
   }
   .grid {
     .grid-item {
-      margin: 5px 0;
+      padding: 5px;
+      img {
+        width: 100%;
+      }
       &:nth-child(1) {
-        width: 75%;
         img {
           width: 100%;
         }
       }
       &:nth-child(2) {
-        width: 25%;
         img {
           width: 100%;
         }
       }
       &:nth-child(3) {
-        width: 25%;
         img {
           width: 100%;
         }

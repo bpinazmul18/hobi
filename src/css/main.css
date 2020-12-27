@@ -351,19 +351,15 @@
           .portfolio-section .portfolio-list-wrapper .portfolio-projects-titles li.active:after {
             width: 100%; }
   .portfolio-section .grid .grid-item {
-    margin: 5px 0; }
-    .portfolio-section .grid .grid-item:nth-child(1) {
-      width: 75%; }
-      .portfolio-section .grid .grid-item:nth-child(1) img {
-        width: 100%; }
-    .portfolio-section .grid .grid-item:nth-child(2) {
-      width: 25%; }
-      .portfolio-section .grid .grid-item:nth-child(2) img {
-        width: 100%; }
-    .portfolio-section .grid .grid-item:nth-child(3) {
-      width: 25%; }
-      .portfolio-section .grid .grid-item:nth-child(3) img {
-        width: 100%; }
+    padding: 5px; }
+    .portfolio-section .grid .grid-item img {
+      width: 100%; }
+    .portfolio-section .grid .grid-item:nth-child(1) img {
+      width: 100%; }
+    .portfolio-section .grid .grid-item:nth-child(2) img {
+      width: 100%; }
+    .portfolio-section .grid .grid-item:nth-child(3) img {
+      width: 100%; }
 
 .container {
   max-width: 1170px;

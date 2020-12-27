@@ -1,14 +1,15 @@
 (function($) {
     "use strict";
     // your code here
-
+    // isotop
     $('.grid').isotope({
         itemSelector: '.grid-item',
+        percentPosition: true,
         masonry: {
-            columnWidth: 100
+            // use outer width of grid-sizer for columnWidth
+            columnWidth: 1
         }
     });
-
 
     //SLIDER-BG
     $("[data-background]").each(function (){

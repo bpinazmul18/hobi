@@ -1,0 +1,16 @@
+@mixin attr-x($attr, $attr-count: 5, $attr-steps: 20, $unit: '%') {
+  $grid-item: null;
+  @for $i from 1 through $attr-count {
+    $attr-value: $attr-steps * $i;
+
+    .#{$attr}#{$attr-value} {
+      #{$attr}: #{$attr-value}#{$unit};
+    }
+
+    $attr-list: append($grid-item, unquote(".#{$attr}-#{$attr-value}"), comma);
+  }
+
+  #{$grid-item} {
+    //append style to all classes
+  }
+}
